@@ -6,7 +6,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Åland Islands",
                 OfficialName = "Åland Islands",
@@ -33,7 +33,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Albania",
                 OfficialName = "Republic of Albania",
@@ -66,7 +66,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Andorra",
                 OfficialName = "Principality of Andorra",
@@ -97,7 +97,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Austria",
                 OfficialName = "Republic of Austria",
@@ -134,7 +134,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Belgium",
                 OfficialName = "Kingdom of Belgium",
@@ -167,7 +167,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Bulgaria",
                 OfficialName = "Republic of Bulgaria",
@@ -201,7 +201,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Bosnia and Herzegovina",
                 OfficialName = "Bosnia and Herzegovina",
@@ -233,7 +233,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Belarus",
                 OfficialName = "Republic of Belarus",
@@ -267,7 +267,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Switzerland",
                 OfficialName = "Swiss Confederation",
@@ -301,7 +301,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Cyprus",
                 OfficialName = "Republic of Cyprus",
@@ -328,7 +328,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Czech Republic",
                 OfficialName = "Czech Republic",
@@ -361,7 +361,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Germany",
                 OfficialName = "Federal Republic of Germany",
@@ -399,7 +399,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Denmark",
                 OfficialName = "Kingdom of Denmark",
@@ -426,7 +426,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Spain",
                 OfficialName = "Kingdom of Spain",
@@ -460,7 +460,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Estonia",
                 OfficialName = "Republic of Estonia",
@@ -491,7 +491,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Finland",
                 OfficialName = "Republic of Finland",
@@ -523,7 +523,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "France",
                 OfficialName = "French Republic",
@@ -560,7 +560,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Faroe Islands",
                 OfficialName = "Faroe Islands",
@@ -587,7 +587,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "United Kingdom",
                 OfficialName = "United Kingdom of Great Britain and Northern Ireland",
@@ -614,7 +614,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Guernsey",
                 OfficialName = "Bailiwick of Guernsey",
@@ -641,7 +641,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Gibraltar",
                 OfficialName = "Gibraltar",
@@ -668,7 +668,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Greece",
                 OfficialName = "Hellenic Republic",
@@ -701,7 +701,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Croatia",
                 OfficialName = "Republic of Croatia",
@@ -735,7 +735,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Hungary",
                 OfficialName = "Hungary",
@@ -771,7 +771,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Isle of Man",
                 OfficialName = "Isle of Man",
@@ -798,7 +798,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Ireland",
                 OfficialName = "Republic of Ireland",
@@ -825,7 +825,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Iceland",
                 OfficialName = "Iceland",
@@ -852,7 +852,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Italy",
                 OfficialName = "Italian Republic",
@@ -887,7 +887,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Jersey",
                 OfficialName = "Bailiwick of Jersey",
@@ -914,7 +914,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Kosovo",
                 OfficialName = "Republic of Kosovo",
@@ -947,7 +947,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Liechtenstein",
                 OfficialName = "Principality of Liechtenstein",
@@ -978,7 +978,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Lithuania",
                 OfficialName = "Republic of Lithuania",
@@ -1011,7 +1011,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Luxembourg",
                 OfficialName = "Grand Duchy of Luxembourg",
@@ -1043,7 +1043,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Latvia",
                 OfficialName = "Republic of Latvia",
@@ -1076,7 +1076,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Monaco",
                 OfficialName = "Principality of Monaco",
@@ -1103,7 +1103,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Moldova",
                 OfficialName = "Republic of Moldova",
@@ -1134,7 +1134,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Macedonia",
                 OfficialName = "Republic of Macedonia",
@@ -1168,7 +1168,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Malta",
                 OfficialName = "Republic of Malta",
@@ -1195,7 +1195,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Montenegro",
                 OfficialName = "Montenegro",
@@ -1229,7 +1229,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Netherlands",
                 OfficialName = "Netherlands",
@@ -1260,7 +1260,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Norway",
                 OfficialName = "Kingdom of Norway",
@@ -1292,7 +1292,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Poland",
                 OfficialName = "Republic of Poland",
@@ -1328,7 +1328,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Portugal",
                 OfficialName = "Portuguese Republic",
@@ -1355,7 +1355,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Romania",
                 OfficialName = "Romania",
@@ -1389,7 +1389,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Russia",
                 OfficialName = "Russian Federation",
@@ -1432,7 +1432,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "San Marino",
                 OfficialName = "Most Serene Republic of San Marino",
@@ -1459,7 +1459,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Serbia",
                 OfficialName = "Republic of Serbia",
@@ -1496,7 +1496,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Svalbard and Jan Mayen",
                 OfficialName = "Svalbard og Jan Mayen",
@@ -1523,7 +1523,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Slovakia",
                 OfficialName = "Slovak Republic",
@@ -1557,7 +1557,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Slovenia",
                 OfficialName = "Republic of Slovenia",
@@ -1590,7 +1590,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Sweden",
                 OfficialName = "Kingdom of Sweden",
@@ -1621,7 +1621,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Ukraine",
                 OfficialName = "Ukraine",
@@ -1657,7 +1657,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Vatican City",
                 OfficialName = "Vatican City State",

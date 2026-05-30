@@ -6,7 +6,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Antarctica",
                 OfficialName = "Antarctica",
@@ -32,7 +32,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "French Southern and Antarctic Lands",
                 OfficialName = "Territory of the French Southern and Antarctic Lands",
@@ -58,7 +58,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Bouvet Island",
                 OfficialName = "Bouvet Island",
@@ -84,7 +84,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Heard Island and McDonald Islands",
                 OfficialName = "Heard Island and McDonald Islands",

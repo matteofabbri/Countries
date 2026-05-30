@@ -8,14 +8,23 @@ namespace Countries;
 public partial struct Country
 {
     private static Country[] _all;
+    private static Dictionary<CountryCode, Country> _iso2;
+    private static Dictionary<CountryCodeISO3, Country> _iso3;
+    private static Dictionary<string, Country> _common;
+    private static Dictionary<string, Country> _official;
 
     static Country()
     {
-        _all = typeof(Country)
+        var all = typeof(Country)
             .GetProperties(BindingFlags.Public | BindingFlags.Static)
             .Where(p => p.PropertyType == typeof(Country))
             .Select(p => (Country)p.GetValue(null)!)
             .ToArray();
+
+        _iso2 = all.ToDictionary(c => c.CountryCode);
+        _iso3 = all.ToDictionary(c => c.ISO3);
+        _common = all.ToDictionary(c => c.CommonName);
+        _official = all.ToDictionary(c => c.OfficialName);
     }
 
     public string CommonName { get; private set; }
@@ -56,7 +65,7 @@ public partial struct Country
     {
         get
         {
-            Country country = new Country
+            Country country = new()
             {
                 CommonName = "Unknown",
                 OfficialName = "Unknown",
@@ -113,11 +122,11 @@ public partial struct Country
 
     public static Country FromCode(CountryCode cc)
     {
-        return All.FirstOrDefault((Country x) => x.CountryCode == cc) ?? Unknown;
+        return _iso2.TryGetValue(cc, out Country result) ? result! : Unknown;
     }
 
     public static Country FromCode(CountryCodeISO3 cc)
     {
-        return All.FirstOrDefault((Country x) => x.ISO3 == cc) ?? Unknown;
+        return _iso3.TryGetValue(cc, out Country result) ? result! : Unknown;
     }
 }
