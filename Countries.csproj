@@ -20,10 +20,26 @@
     <Authors>Matteo Fabbri</Authors>
     <Company>Matteo Fabbri</Company>
     <Copyright>Matteo Fabbri 2015</Copyright>
-    <Description>Fast, dependency-free ISO-3166 country library for .NET with full country data and built-in fuzzy search.</Description>
+    <Description>Complete ISO‑3166‑1 dataset
+
+Strongly‑typed country model
+
+ISO2, ISO3, numeric codes, CIOC
+
+Official name, common name, alternative spellings
+
+Capital, region, subregion, TLD, calling codes
+
+Zero dependencies, zero external API calls
+
+High‑performance fuzzy search with accent removal and typo tolerance
+
+Multi‑targeting: .NET Standard 2.0, .NET 6, .NET 8, .NET 10
+
+Suitable for libraries, backend services, validation layers, and data processing</Description>
     <AssemblyTitle>Countries</AssemblyTitle>
     <Product>Countries</Product>
-    <PackageTags>countries;iso;iso2;iso3;geography;fuzzy</PackageTags>
+    <PackageTags>countries;country;iso;iso3166;iso2;iso3;country-codes;geography;geodata;region;subregion;tld;calling-codes;fuzzy-search;normalization;internationalization;globalization;dataset;lookup;validation</PackageTags>
 
     <!-- Repository info -->
     <RepositoryUrl>https://github.com/matteofabbri/Countries</RepositoryUrl>
@@ -44,6 +60,12 @@
     <!-- Symbol package -->
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PackageProjectUrl>https://github.com/matteofabbri/Countries</PackageProjectUrl>
+    <PackAsTool>False</PackAsTool>
+    <AssemblyVersion>3.0.</AssemblyVersion>
+    <FileVersion>3.0</FileVersion>
+    <EnableNETAnalyzers>True</EnableNETAnalyzers>
+    <AnalysisLevel>latest</AnalysisLevel>
   </PropertyGroup>
 
   <ItemGroup>
