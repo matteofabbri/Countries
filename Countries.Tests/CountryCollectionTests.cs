@@ -28,12 +28,12 @@ public class CountryCollectionTests
         Assert.That(codes.Distinct().Count(), Is.EqualTo(codes.Count));
     }
 
-    [TestCase("Europe")]
-    [TestCase("Africa")]
-    [TestCase("Asia")]
-    [TestCase("Americas")]
-    [TestCase("Oceania")]
-    public void All_EachRegion_ShouldHaveAtLeastOneCountry(string region)
+    [TestCase(Continent.Europe)]
+    [TestCase(Continent.Africa)]
+    [TestCase(Continent.Asia)]
+    [TestCase(Continent.America)]
+    [TestCase(Continent.Oceania)]
+    public void All_EachRegion_ShouldHaveAtLeastOneCountry(Continent region)
         => Assert.That(Country.All.Any(c => c.Continent == region), Is.True,
             $"Region '{region}' should have at least one country");
 

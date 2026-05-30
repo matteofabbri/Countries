@@ -49,7 +49,7 @@ public class CountryLookupTests
             Assert.That(country.CountryCode,  Is.EqualTo(CountryCode.IT));
             Assert.That(country.ISO3,         Is.EqualTo(CountryCodeISO3.ITA));
             Assert.That(country.Capital,      Is.EqualTo("Rome"));
-            Assert.That(country.Continent,       Is.EqualTo("Europe"));
+            Assert.That(country.Continent,       Is.EqualTo(Continent.Europe));
         });
     }
 

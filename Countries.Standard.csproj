@@ -16,7 +16,7 @@
 
     <!-- NuGet metadata -->
     <PackageId>Countries.Standard</PackageId>
-    <Version>1.0.0</Version>
+    <Version>3.0.0</Version>
     <Authors>Matteo Fabbri</Authors>
     <Company>Matteo Fabbri</Company>
     <Copyright>Matteo Fabbri 2015</Copyright>
@@ -62,10 +62,11 @@ Suitable for libraries, backend services, validation layers, and data processing
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <PackageProjectUrl>https://github.com/matteofabbri/Countries</PackageProjectUrl>
     <PackAsTool>False</PackAsTool>
-    <AssemblyVersion>3.0.</AssemblyVersion>
-    <FileVersion>3.0</FileVersion>
+    <AssemblyVersion>3.0.0</AssemblyVersion>
+    <FileVersion>3.0.0</FileVersion>
     <EnableNETAnalyzers>True</EnableNETAnalyzers>
     <AnalysisLevel>latest</AnalysisLevel>
+    <Title>Countries.Standard</Title>
   </PropertyGroup>
 
   <ItemGroup>
