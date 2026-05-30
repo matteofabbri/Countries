@@ -209,17 +209,7 @@ public partial struct Country : IEquatable<CountryCode>, IEquatable<CountryCodeI
     public static Country FromCode(CountryCodeISO3 cc)
         => _iso3.TryGetValue(cc, out var c) ? c : Unknown;
 
-    public bool Equals(CountryCode other)
-    {
-       if(!ReferenceEquals(this, other)) return false;
+    public bool Equals(CountryCode other) => CountryCode == other;
 
-       return CountryCode == other;
-    }
-
-    public bool Equals(CountryCodeISO3 other)
-    {
-       if(!ReferenceEquals(this, other)) return false;
-
-       return ISO3 == other;
-    }
+    public bool Equals(CountryCodeISO3 other) => ISO3 == other;
 }

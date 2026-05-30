@@ -1,30 +1,32 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <AssemblyName>Countries</AssemblyName>
-    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
 
     <!-- Multi-targeting -->
-    <TargetFrameworks>
-      netstandard2.0;
-      net6.0;
-      net8.0;
-      net10.0
-    </TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;net6.0;net8.0;net10.0</TargetFrameworks>
 
     <LangVersion>12.0</LangVersion>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
 
+    <!-- Disable auto-generation — we let the csproj metadata drive NuGet,
+         but suppress the per-TFM attribute files that cause CS0579 duplicates -->
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+
     <!-- NuGet metadata -->
     <PackageId>Countries</PackageId>
     <Version>1.0.0</Version>
-    <Authors>YourName</Authors>
-    <Company></Company>
-    <Description>Fast, dependency‑free ISO‑3166 country library for .NET with full country data and built‑in fuzzy search.</Description>
+    <Authors>Matteo Fabbri</Authors>
+    <Company>Matteo Fabbri</Company>
+    <Copyright>Matteo Fabbri 2015</Copyright>
+    <Description>Fast, dependency-free ISO-3166 country library for .NET with full country data and built-in fuzzy search.</Description>
+    <AssemblyTitle>Countries</AssemblyTitle>
+    <Product>Countries</Product>
     <PackageTags>countries;iso;iso2;iso3;geography;fuzzy</PackageTags>
 
     <!-- Repository info -->
-    <RepositoryUrl>https://github.com/your/repo</RepositoryUrl>
+    <RepositoryUrl>https://github.com/matteofabbri/Countries</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
 
     <!-- License -->
@@ -46,6 +48,13 @@
 
   <ItemGroup>
     <None Include="README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <!-- Exclude test project sources from this library's compilation -->
+  <ItemGroup>
+    <Compile Remove="Countries.Tests\**" />
+    <None Remove="Countries.Tests\**" />
+    <EmbeddedResource Remove="Countries.Tests\**" />
   </ItemGroup>
 
 </Project>
