@@ -135,19 +135,19 @@ public partial struct Country : IEquatable<CountryCode>, IEquatable<CountryCodeI
     public string[] CallingCodes { get; private set; }
     public string Capital { get; private set; }
     public string[] AlternativeSpellings { get; private set; }
+    public Continent Continent { get; private set; }
     public string Region { get; private set; }
-    public string SubRegion { get; private set; }
     public CountryCodeISO3[] Borders { get; private set; }
     public bool Landlocked { get; private set; }
     public double Area { get; private set; }
 
     public static IEnumerable<Country> All => _all;
 
-    public static IEnumerable<Country> Africa   => _all.Where(c => c.Region == "Africa");
-    public static IEnumerable<Country> Americas  => _all.Where(c => c.Region == "Americas");
-    public static IEnumerable<Country> Asia      => _all.Where(c => c.Region == "Asia");
-    public static IEnumerable<Country> Europe    => _all.Where(c => c.Region == "Europe");
-    public static IEnumerable<Country> Oceania   => _all.Where(c => c.Region == "Oceania");
+    public static IEnumerable<Country> Africa   => _all.Where(c => c.Continent == Continent.Africa);
+    public static IEnumerable<Country> Americas  => _all.Where(c => c.Continent == Continent.America);
+    public static IEnumerable<Country> Asia      => _all.Where(c => c.Continent == Continent.Asia);
+    public static IEnumerable<Country> Europe    => _all.Where(c => c.Continent == Continent.Europe);
+    public static IEnumerable<Country> Oceania   => _all.Where(c => c.Continent == Continent.Oceania);
 
     public static Country Unknown
     {
@@ -166,8 +166,8 @@ public partial struct Country : IEquatable<CountryCode>, IEquatable<CountryCodeI
                 CallingCodes = [],
                 Capital = "",
                 AlternativeSpellings = [],
+                Continent = Continent.Unknow,
                 Region = "",
-                SubRegion = "",
                 Borders = [],
                 Landlocked = false,
                 Area = 510072000.0

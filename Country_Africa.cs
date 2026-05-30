@@ -19,8 +19,8 @@ public partial struct Country
                 CallingCodes = ["244"],
                 Capital = "Luanda",
                 AlternativeSpellings = ["AO", "República de Angola", "ʁɛpublika de an'ɡɔla"],
-                Region = "Africa",
-                SubRegion = "Middle Africa",
+                Continent = Continent.Africa,
+                Region = "Middle Africa",
                 Borders =
                 [
                     CountryCodeISO3.COG,
@@ -52,8 +52,8 @@ public partial struct Country
                 CallingCodes = ["257"],
                 Capital = "Bujumbura",
                 AlternativeSpellings = ["BI", "Republic of Burundi", "Republika y'Uburundi", "République du Burundi"],
-                Region = "Africa",
-                SubRegion = "Eastern Africa",
+                Continent = Continent.Africa,
+                Region = "Eastern Africa",
                 Borders =
                 [
                     CountryCodeISO3.COD,
@@ -84,8 +84,8 @@ public partial struct Country
                 CallingCodes = ["229"],
                 Capital = "Porto-Novo",
                 AlternativeSpellings = ["BJ", "Republic of Benin", "République du Bénin"],
-                Region = "Africa",
-                SubRegion = "Western Africa",
+                Continent = Continent.Africa,
+                Region = "Western Africa",
                 Borders =
                 [
                     CountryCodeISO3.BFA,
@@ -117,8 +117,8 @@ public partial struct Country
                 CallingCodes = ["226"],
                 Capital = "Ouagadougou",
                 AlternativeSpellings = ["BF"],
-                Region = "Africa",
-                SubRegion = "Western Africa",
+                Continent = Continent.Africa,
+                Region = "Western Africa",
                 Borders =
                 [
                     CountryCodeISO3.BEN,
@@ -152,8 +152,8 @@ public partial struct Country
                 CallingCodes = ["267"],
                 Capital = "Gaborone",
                 AlternativeSpellings = ["BW", "Republic of Botswana", "Lefatshe la Botswana"],
-                Region = "Africa",
-                SubRegion = "Southern Africa",
+                Continent = Continent.Africa,
+                Region = "Southern Africa",
                 Borders =
                 [
                     CountryCodeISO3.NAM,
@@ -185,8 +185,8 @@ public partial struct Country
                 CallingCodes = ["236"],
                 Capital = "Bangui",
                 AlternativeSpellings = ["CF", "Central African Republic", "République centrafricaine"],
-                Region = "Africa",
-                SubRegion = "Middle Africa",
+                Continent = Continent.Africa,
+                Region = "Middle Africa",
                 Borders =
                 [
                     CountryCodeISO3.CMR,
@@ -220,8 +220,8 @@ public partial struct Country
                 CallingCodes = ["225"],
                 Capital = "Yamoussoukro",
                 AlternativeSpellings = ["CI", "Côte d'Ivoire", "Ivory Coast", "Republic of Côte d'Ivoire", "République de Côte d'Ivoire"],
-                Region = "Africa",
-                SubRegion = "Western Africa",
+                Continent = Continent.Africa,
+                Region = "Western Africa",
                 Borders =
                 [
                     CountryCodeISO3.BFA,
@@ -254,8 +254,8 @@ public partial struct Country
                 CallingCodes = ["237"],
                 Capital = "Yaoundé",
                 AlternativeSpellings = ["CM", "Republic of Cameroon", "République du Cameroun"],
-                Region = "Africa",
-                SubRegion = "Middle Africa",
+                Continent = Continent.Africa,
+                Region = "Middle Africa",
                 Borders =
                 [
                     CountryCodeISO3.CAF,
@@ -289,8 +289,8 @@ public partial struct Country
                 CallingCodes = ["243"],
                 Capital = "Kinshasa",
                 AlternativeSpellings = ["CD", "DR Congo", "Congo-Kinshasa", "Congo, the Democratic Republic of the", "DRC"],
-                Region = "Africa",
-                SubRegion = "Middle Africa",
+                Continent = Continent.Africa,
+                Region = "Middle Africa",
                 Borders =
                 [
                     CountryCodeISO3.AGO,
@@ -327,8 +327,8 @@ public partial struct Country
                 CallingCodes = ["242"],
                 Capital = "Brazzaville",
                 AlternativeSpellings = ["CG", "Congo", "Congo-Brazzaville"],
-                Region = "Africa",
-                SubRegion = "Middle Africa",
+                Continent = Continent.Africa,
+                Region = "Middle Africa",
                 Borders =
                 [
                     CountryCodeISO3.AGO,
@@ -361,8 +361,8 @@ public partial struct Country
                 CallingCodes = ["269"],
                 Capital = "Moroni",
                 AlternativeSpellings = ["KM", "Union of the Comoros", "Union des Comores", "Udzima wa Komori", "al-Ittiḥād al-Qumurī"],
-                Region = "Africa",
-                SubRegion = "Eastern Africa",
+                Continent = Continent.Africa,
+                Region = "Eastern Africa",
                 Borders = [],
                 Landlocked = false,
                 Area = 1862.0
@@ -388,8 +388,8 @@ public partial struct Country
                 CallingCodes = ["238"],
                 Capital = "Praia",
                 AlternativeSpellings = ["CV", "Republic of Cabo Verde", "República de Cabo Verde"],
-                Region = "Africa",
-                SubRegion = "Western Africa",
+                Continent = Continent.Africa,
+                Region = "Western Africa",
                 Borders = [],
                 Landlocked = false,
                 Area = 4033.0
@@ -415,8 +415,8 @@ public partial struct Country
                 CallingCodes = ["253"],
                 Capital = "Djibouti",
                 AlternativeSpellings = ["DJ", "Jabuuti", "Gabuuti", "Republic of Djibouti", "République de Djibouti", "Gabuutih Ummuuno", "Jamhuuriyadda Jabuuti"],
-                Region = "Africa",
-                SubRegion = "Eastern Africa",
+                Continent = Continent.Africa,
+                Region = "Eastern Africa",
                 Borders =
                 [
                     CountryCodeISO3.ERI,
@@ -447,8 +447,8 @@ public partial struct Country
                 CallingCodes = ["213"],
                 Capital = "Algiers",
                 AlternativeSpellings = ["DZ", "Dzayer", "Algérie"],
-                Region = "Africa",
-                SubRegion = "Northern Africa",
+                Continent = Continent.Africa,
+                Region = "Northern Africa",
                 Borders =
                 [
                     CountryCodeISO3.TUN,
@@ -483,8 +483,8 @@ public partial struct Country
                 CallingCodes = ["20"],
                 Capital = "Cairo",
                 AlternativeSpellings = ["EG", "Arab Republic of Egypt"],
-                Region = "Africa",
-                SubRegion = "Northern Africa",
+                Continent = Continent.Africa,
+                Region = "Northern Africa",
                 Borders =
                 [
                     CountryCodeISO3.ISR,
@@ -515,8 +515,8 @@ public partial struct Country
                 CallingCodes = ["291"],
                 Capital = "Asmara",
                 AlternativeSpellings = ["ER", "State of Eritrea", "ሃገረ ኤርትራ", "Dawlat Iritriyá", "ʾErtrā", "Iritriyā", ""],
-                Region = "Africa",
-                SubRegion = "Eastern Africa",
+                Continent = Continent.Africa,
+                Region = "Eastern Africa",
                 Borders =
                 [
                     CountryCodeISO3.DJI,
@@ -547,8 +547,8 @@ public partial struct Country
                 CallingCodes = ["212"],
                 Capital = "El Aaiún",
                 AlternativeSpellings = ["EH", "Taneẓroft Tutrimt"],
-                Region = "Africa",
-                SubRegion = "Northern Africa",
+                Continent = Continent.Africa,
+                Region = "Northern Africa",
                 Borders =
                 [
                     CountryCodeISO3.DZA,
@@ -579,8 +579,8 @@ public partial struct Country
                 CallingCodes = ["251"],
                 Capital = "Addis Ababa",
                 AlternativeSpellings = ["ET", "ʾĪtyōṗṗyā", "Federal Democratic Republic of Ethiopia", "የኢትዮጵያ ፌዴራላዊ ዲሞክራሲያዊ ሪፐብሊክ"],
-                Region = "Africa",
-                SubRegion = "Eastern Africa",
+                Continent = Continent.Africa,
+                Region = "Eastern Africa",
                 Borders =
                 [
                     CountryCodeISO3.DJI,
@@ -614,8 +614,8 @@ public partial struct Country
                 CallingCodes = ["241"],
                 Capital = "Libreville",
                 AlternativeSpellings = ["GA", "Gabonese Republic", "République Gabonaise"],
-                Region = "Africa",
-                SubRegion = "Middle Africa",
+                Continent = Continent.Africa,
+                Region = "Middle Africa",
                 Borders =
                 [
                     CountryCodeISO3.CMR,
@@ -646,8 +646,8 @@ public partial struct Country
                 CallingCodes = ["233"],
                 Capital = "Accra",
                 AlternativeSpellings = ["GH"],
-                Region = "Africa",
-                SubRegion = "Western Africa",
+                Continent = Continent.Africa,
+                Region = "Western Africa",
                 Borders =
                 [
                     CountryCodeISO3.BFA,
@@ -678,8 +678,8 @@ public partial struct Country
                 CallingCodes = ["224"],
                 Capital = "Conakry",
                 AlternativeSpellings = ["GN", "Republic of Guinea", "République de Guinée"],
-                Region = "Africa",
-                SubRegion = "Western Africa",
+                Continent = Continent.Africa,
+                Region = "Western Africa",
                 Borders =
                 [
                     CountryCodeISO3.CIV,
@@ -713,8 +713,8 @@ public partial struct Country
                 CallingCodes = ["220"],
                 Capital = "Banjul",
                 AlternativeSpellings = ["GM", "Republic of the Gambia"],
-                Region = "Africa",
-                SubRegion = "Western Africa",
+                Continent = Continent.Africa,
+                Region = "Western Africa",
                 Borders = [CountryCodeISO3.SEN],
                 Landlocked = false,
                 Area = 10689.0
@@ -740,8 +740,8 @@ public partial struct Country
                 CallingCodes = ["245"],
                 Capital = "Bissau",
                 AlternativeSpellings = ["GW", "Republic of Guinea-Bissau", "República da Guiné-Bissau"],
-                Region = "Africa",
-                SubRegion = "Western Africa",
+                Continent = Continent.Africa,
+                Region = "Western Africa",
                 Borders =
                 [
                     CountryCodeISO3.GIN,
@@ -771,8 +771,8 @@ public partial struct Country
                 CallingCodes = ["240"],
                 Capital = "Malabo",
                 AlternativeSpellings = ["GQ", "Republic of Equatorial Guinea", "República de Guinea Ecuatorial", "République de Guinée équatoriale", "República da Guiné Equatorial"],
-                Region = "Africa",
-                SubRegion = "Middle Africa",
+                Continent = Continent.Africa,
+                Region = "Middle Africa",
                 Borders =
                 [
                     CountryCodeISO3.CMR,
@@ -802,8 +802,8 @@ public partial struct Country
                 CallingCodes = ["246"],
                 Capital = "Diego Garcia",
                 AlternativeSpellings = ["IO"],
-                Region = "Africa",
-                SubRegion = "Eastern Africa",
+                Continent = Continent.Africa,
+                Region = "Eastern Africa",
                 Borders = [],
                 Landlocked = false,
                 Area = 60.0
@@ -829,8 +829,8 @@ public partial struct Country
                 CallingCodes = ["254"],
                 Capital = "Nairobi",
                 AlternativeSpellings = ["KE", "Republic of Kenya", "Jamhuri ya Kenya"],
-                Region = "Africa",
-                SubRegion = "Eastern Africa",
+                Continent = Continent.Africa,
+                Region = "Eastern Africa",
                 Borders =
                 [
                     CountryCodeISO3.ETH,
@@ -863,8 +863,8 @@ public partial struct Country
                 CallingCodes = ["231"],
                 Capital = "Monrovia",
                 AlternativeSpellings = ["LR", "Republic of Liberia"],
-                Region = "Africa",
-                SubRegion = "Western Africa",
+                Continent = Continent.Africa,
+                Region = "Western Africa",
                 Borders =
                 [
                     CountryCodeISO3.GIN,
@@ -895,8 +895,8 @@ public partial struct Country
                 CallingCodes = ["218"],
                 Capital = "Tripoli",
                 AlternativeSpellings = ["LY", "State of Libya", "Dawlat Libya"],
-                Region = "Africa",
-                SubRegion = "Northern Africa",
+                Continent = Continent.Africa,
+                Region = "Northern Africa",
                 Borders =
                 [
                     CountryCodeISO3.DZA,
@@ -930,8 +930,8 @@ public partial struct Country
                 CallingCodes = ["266"],
                 Capital = "Maseru",
                 AlternativeSpellings = ["LS", "Kingdom of Lesotho", "Muso oa Lesotho"],
-                Region = "Africa",
-                SubRegion = "Southern Africa",
+                Continent = Continent.Africa,
+                Region = "Southern Africa",
                 Borders = [CountryCodeISO3.ZAF],
                 Landlocked = true,
                 Area = 30355.0
@@ -957,8 +957,8 @@ public partial struct Country
                 CallingCodes = ["212"],
                 Capital = "Rabat",
                 AlternativeSpellings = ["MA", "Kingdom of Morocco", "Al-Mamlakah al-Maġribiyah"],
-                Region = "Africa",
-                SubRegion = "Northern Africa",
+                Continent = Continent.Africa,
+                Region = "Northern Africa",
                 Borders =
                 [
                     CountryCodeISO3.DZA,
@@ -989,8 +989,8 @@ public partial struct Country
                 CallingCodes = ["261"],
                 Capital = "Antananarivo",
                 AlternativeSpellings = ["MG", "Republic of Madagascar", "Repoblikan'i Madagasikara", "République de Madagascar"],
-                Region = "Africa",
-                SubRegion = "Eastern Africa",
+                Continent = Continent.Africa,
+                Region = "Eastern Africa",
                 Borders = [],
                 Landlocked = false,
                 Area = 587041.0
@@ -1016,8 +1016,8 @@ public partial struct Country
                 CallingCodes = ["223"],
                 Capital = "Bamako",
                 AlternativeSpellings = ["ML", "Republic of Mali", "République du Mali"],
-                Region = "Africa",
-                SubRegion = "Western Africa",
+                Continent = Continent.Africa,
+                Region = "Western Africa",
                 Borders =
                 [
                     CountryCodeISO3.DZA,
@@ -1052,8 +1052,8 @@ public partial struct Country
                 CallingCodes = ["258"],
                 Capital = "Maputo",
                 AlternativeSpellings = ["MZ", "Republic of Mozambique", "República de Moçambique"],
-                Region = "Africa",
-                SubRegion = "Eastern Africa",
+                Continent = Continent.Africa,
+                Region = "Eastern Africa",
                 Borders =
                 [
                     CountryCodeISO3.MWI,
@@ -1087,8 +1087,8 @@ public partial struct Country
                 CallingCodes = ["222"],
                 Capital = "Nouakchott",
                 AlternativeSpellings = ["MR", "Islamic Republic of Mauritania", "al-Jumhūriyyah al-ʾIslāmiyyah al-Mūrītāniyyah"],
-                Region = "Africa",
-                SubRegion = "Western Africa",
+                Continent = Continent.Africa,
+                Region = "Western Africa",
                 Borders =
                 [
                     CountryCodeISO3.DZA,
@@ -1120,8 +1120,8 @@ public partial struct Country
                 CallingCodes = ["230"],
                 Capital = "Port Louis",
                 AlternativeSpellings = ["MU", "Republic of Mauritius", "République de Maurice"],
-                Region = "Africa",
-                SubRegion = "Eastern Africa",
+                Continent = Continent.Africa,
+                Region = "Eastern Africa",
                 Borders = [],
                 Landlocked = false,
                 Area = 2040.0
@@ -1147,8 +1147,8 @@ public partial struct Country
                 CallingCodes = ["265"],
                 Capital = "Lilongwe",
                 AlternativeSpellings = ["MW", "Republic of Malawi"],
-                Region = "Africa",
-                SubRegion = "Eastern Africa",
+                Continent = Continent.Africa,
+                Region = "Eastern Africa",
                 Borders =
                 [
                     CountryCodeISO3.MOZ,
@@ -1179,8 +1179,8 @@ public partial struct Country
                 CallingCodes = ["262"],
                 Capital = "Mamoudzou",
                 AlternativeSpellings = ["YT", "Department of Mayotte", "Département de Mayotte"],
-                Region = "Africa",
-                SubRegion = "Eastern Africa",
+                Continent = Continent.Africa,
+                Region = "Eastern Africa",
                 Borders = [],
                 Landlocked = false,
                 Area = 374.0
@@ -1206,8 +1206,8 @@ public partial struct Country
                 CallingCodes = ["264"],
                 Capital = "Windhoek",
                 AlternativeSpellings = ["NA", "Namibië", "Republic of Namibia"],
-                Region = "Africa",
-                SubRegion = "Southern Africa",
+                Continent = Continent.Africa,
+                Region = "Southern Africa",
                 Borders =
                 [
                     CountryCodeISO3.AGO,
@@ -1239,8 +1239,8 @@ public partial struct Country
                 CallingCodes = ["227"],
                 Capital = "Niamey",
                 AlternativeSpellings = ["NE", "Nijar"],
-                Region = "Africa",
-                SubRegion = "Western Africa",
+                Continent = Continent.Africa,
+                Region = "Western Africa",
                 Borders =
                 [
                     CountryCodeISO3.DZA,
@@ -1275,8 +1275,8 @@ public partial struct Country
                 CallingCodes = ["234"],
                 Capital = "Abuja",
                 AlternativeSpellings = ["NG", "Nijeriya", "Naíjíríà", "Federal Republic of Nigeria"],
-                Region = "Africa",
-                SubRegion = "Western Africa",
+                Continent = Continent.Africa,
+                Region = "Western Africa",
                 Borders =
                 [
                     CountryCodeISO3.BEN,
@@ -1308,8 +1308,8 @@ public partial struct Country
                 CallingCodes = ["262"],
                 Capital = "Saint-Denis",
                 AlternativeSpellings = ["RE", "Reunion"],
-                Region = "Africa",
-                SubRegion = "Eastern Africa",
+                Continent = Continent.Africa,
+                Region = "Eastern Africa",
                 Borders = [],
                 Landlocked = false,
                 Area = 2511.0
@@ -1335,8 +1335,8 @@ public partial struct Country
                 CallingCodes = ["250"],
                 Capital = "Kigali",
                 AlternativeSpellings = ["RW", "Republic of Rwanda", "Repubulika y'u Rwanda", "République du Rwanda"],
-                Region = "Africa",
-                SubRegion = "Eastern Africa",
+                Continent = Continent.Africa,
+                Region = "Eastern Africa",
                 Borders =
                 [
                     CountryCodeISO3.BDI,
@@ -1368,8 +1368,8 @@ public partial struct Country
                 CallingCodes = ["249"],
                 Capital = "Khartoum",
                 AlternativeSpellings = ["SD", "Republic of the Sudan", "Jumhūrīyat as-Sūdān"],
-                Region = "Africa",
-                SubRegion = "Northern Africa",
+                Continent = Continent.Africa,
+                Region = "Northern Africa",
                 Borders =
                 [
                     CountryCodeISO3.CAF,
@@ -1404,8 +1404,8 @@ public partial struct Country
                 CallingCodes = ["221"],
                 Capital = "Dakar",
                 AlternativeSpellings = ["SN", "Republic of Senegal", "République du Sénégal"],
-                Region = "Africa",
-                SubRegion = "Western Africa",
+                Continent = Continent.Africa,
+                Region = "Western Africa",
                 Borders =
                 [
                     CountryCodeISO3.GMB,
@@ -1438,8 +1438,8 @@ public partial struct Country
                 CallingCodes = ["232"],
                 Capital = "Freetown",
                 AlternativeSpellings = ["SL", "Republic of Sierra Leone"],
-                Region = "Africa",
-                SubRegion = "Western Africa",
+                Continent = Continent.Africa,
+                Region = "Western Africa",
                 Borders =
                 [
                     CountryCodeISO3.GIN,
@@ -1469,8 +1469,8 @@ public partial struct Country
                 CallingCodes = ["252"],
                 Capital = "Mogadishu",
                 AlternativeSpellings = ["SO", "aṣ-Ṣūmāl", "Federal Republic of Somalia", "Jamhuuriyadda Federaalka Soomaaliya", "Jumhūriyyat aṣ-Ṣūmāl al-Fiderāliyya"],
-                Region = "Africa",
-                SubRegion = "Eastern Africa",
+                Continent = Continent.Africa,
+                Region = "Eastern Africa",
                 Borders =
                 [
                     CountryCodeISO3.DJI,
@@ -1501,8 +1501,8 @@ public partial struct Country
                 CallingCodes = ["211"],
                 Capital = "Juba",
                 AlternativeSpellings = ["SS"],
-                Region = "Africa",
-                SubRegion = "Middle Africa",
+                Continent = Continent.Africa,
+                Region = "Middle Africa",
                 Borders =
                 [
                     CountryCodeISO3.CAF,
@@ -1536,8 +1536,8 @@ public partial struct Country
                 CallingCodes = ["239"],
                 Capital = "São Tomé",
                 AlternativeSpellings = ["ST", "Democratic Republic of São Tomé and Príncipe", "Sao Tome and Principe", "República Democrática de São Tomé e Príncipe"],
-                Region = "Africa",
-                SubRegion = "Middle Africa",
+                Continent = Continent.Africa,
+                Region = "Middle Africa",
                 Borders = [],
                 Landlocked = false,
                 Area = 964.0
@@ -1563,8 +1563,8 @@ public partial struct Country
                 CallingCodes = ["268"],
                 Capital = "Lobamba",
                 AlternativeSpellings = ["SZ", "weSwatini", "Swatini", "Ngwane", "Kingdom of Swaziland", "Umbuso waseSwatini"],
-                Region = "Africa",
-                SubRegion = "Southern Africa",
+                Continent = Continent.Africa,
+                Region = "Southern Africa",
                 Borders =
                 [
                     CountryCodeISO3.MOZ,
@@ -1594,8 +1594,8 @@ public partial struct Country
                 CallingCodes = ["248"],
                 Capital = "Victoria",
                 AlternativeSpellings = ["SC", "Republic of Seychelles", "Repiblik Sesel", "République des Seychelles"],
-                Region = "Africa",
-                SubRegion = "Eastern Africa",
+                Continent = Continent.Africa,
+                Region = "Eastern Africa",
                 Borders = [],
                 Landlocked = false,
                 Area = 452.0
@@ -1621,8 +1621,8 @@ public partial struct Country
                 CallingCodes = ["235"],
                 Capital = "N'Djamena",
                 AlternativeSpellings = ["TD", "Tchad", "Republic of Chad", "République du Tchad"],
-                Region = "Africa",
-                SubRegion = "Middle Africa",
+                Continent = Continent.Africa,
+                Region = "Middle Africa",
                 Borders =
                 [
                     CountryCodeISO3.CMR,
@@ -1656,8 +1656,8 @@ public partial struct Country
                 CallingCodes = ["228"],
                 Capital = "Lomé",
                 AlternativeSpellings = ["TG", "Togolese", "Togolese Republic", "République Togolaise"],
-                Region = "Africa",
-                SubRegion = "Western Africa",
+                Continent = Continent.Africa,
+                Region = "Western Africa",
                 Borders =
                 [
                     CountryCodeISO3.BEN,
@@ -1688,8 +1688,8 @@ public partial struct Country
                 CallingCodes = ["216"],
                 Capital = "Tunis",
                 AlternativeSpellings = ["TN", "Republic of Tunisia", "al-Jumhūriyyah at-Tūnisiyyah"],
-                Region = "Africa",
-                SubRegion = "Northern Africa",
+                Continent = Continent.Africa,
+                Region = "Northern Africa",
                 Borders =
                 [
                     CountryCodeISO3.DZA,
@@ -1719,8 +1719,8 @@ public partial struct Country
                 CallingCodes = ["255"],
                 Capital = "Dodoma",
                 AlternativeSpellings = ["TZ", "Tanzania, United Republic of", "United Republic of Tanzania", "Jamhuri ya Muungano wa Tanzania"],
-                Region = "Africa",
-                SubRegion = "Eastern Africa",
+                Continent = Continent.Africa,
+                Region = "Eastern Africa",
                 Borders =
                 [
                     CountryCodeISO3.BDI,
@@ -1756,8 +1756,8 @@ public partial struct Country
                 CallingCodes = ["256"],
                 Capital = "Kampala",
                 AlternativeSpellings = ["UG", "Republic of Uganda", "Jamhuri ya Uganda"],
-                Region = "Africa",
-                SubRegion = "Eastern Africa",
+                Continent = Continent.Africa,
+                Region = "Eastern Africa",
                 Borders =
                 [
                     CountryCodeISO3.COD,
@@ -1790,8 +1790,8 @@ public partial struct Country
                 CallingCodes = ["27"],
                 Capital = "Pretoria",
                 AlternativeSpellings = ["ZA", "RSA", "Suid-Afrika", "Republic of South Africa"],
-                Region = "Africa",
-                SubRegion = "Southern Africa",
+                Continent = Continent.Africa,
+                Region = "Southern Africa",
                 Borders =
                 [
                     CountryCodeISO3.BWA,
@@ -1825,8 +1825,8 @@ public partial struct Country
                 CallingCodes = ["260"],
                 Capital = "Lusaka",
                 AlternativeSpellings = ["ZM", "Republic of Zambia"],
-                Region = "Africa",
-                SubRegion = "Eastern Africa",
+                Continent = Continent.Africa,
+                Region = "Eastern Africa",
                 Borders =
                 [
                     CountryCodeISO3.AGO,
@@ -1862,8 +1862,8 @@ public partial struct Country
                 CallingCodes = ["263"],
                 Capital = "Harare",
                 AlternativeSpellings = ["ZW", "Republic of Zimbabwe"],
-                Region = "Africa",
-                SubRegion = "Eastern Africa",
+                Continent = Continent.Africa,
+                Region = "Eastern Africa",
                 Borders =
                 [
                     CountryCodeISO3.BWA,

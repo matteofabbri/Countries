@@ -19,8 +19,8 @@ public partial struct Country
                 CallingCodes = ["297"],
                 Capital = "Oranjestad",
                 AlternativeSpellings = ["AW"],
-                Region = "Americas",
-                SubRegion = "Caribbean",
+                Continent = Continent.America,
+                Region = "Caribbean",
                 Borders = [],
                 Landlocked = false,
                 Area = 180.0
@@ -46,8 +46,8 @@ public partial struct Country
                 CallingCodes = ["1264"],
                 Capital = "The Valley",
                 AlternativeSpellings = ["AI"],
-                Region = "Americas",
-                SubRegion = "Caribbean",
+                Continent = Continent.America,
+                Region = "Caribbean",
                 Borders = [],
                 Landlocked = false,
                 Area = 91.0
@@ -73,8 +73,8 @@ public partial struct Country
                 CallingCodes = ["54"],
                 Capital = "Buenos Aires",
                 AlternativeSpellings = ["AR", "Argentine Republic", "República Argentina"],
-                Region = "Americas",
-                SubRegion = "South America",
+                Continent = Continent.America,
+                Region = "South America",
                 Borders =
                 [
                     CountryCodeISO3.BOL,
@@ -107,8 +107,8 @@ public partial struct Country
                 CallingCodes = ["1268"],
                 Capital = "Saint John's",
                 AlternativeSpellings = ["AG"],
-                Region = "Americas",
-                SubRegion = "Caribbean",
+                Continent = Continent.America,
+                Region = "Caribbean",
                 Borders = [],
                 Landlocked = false,
                 Area = 442.0
@@ -134,8 +134,8 @@ public partial struct Country
                 CallingCodes = ["1242"],
                 Capital = "Nassau",
                 AlternativeSpellings = ["BS", "Commonwealth of the Bahamas"],
-                Region = "Americas",
-                SubRegion = "Caribbean",
+                Continent = Continent.America,
+                Region = "Caribbean",
                 Borders = [],
                 Landlocked = false,
                 Area = 13943.0
@@ -161,8 +161,8 @@ public partial struct Country
                 CallingCodes = ["590"],
                 Capital = "Gustavia",
                 AlternativeSpellings = ["BL", "St. Barthelemy", "Collectivity of Saint Barthélemy", "Collectivité de Saint-Barthélemy"],
-                Region = "Americas",
-                SubRegion = "Caribbean",
+                Continent = Continent.America,
+                Region = "Caribbean",
                 Borders = [],
                 Landlocked = false,
                 Area = 21.0
@@ -188,8 +188,8 @@ public partial struct Country
                 CallingCodes = ["501"],
                 Capital = "Belmopan",
                 AlternativeSpellings = ["BZ"],
-                Region = "Americas",
-                SubRegion = "Central America",
+                Continent = Continent.America,
+                Region = "Central America",
                 Borders =
                 [
                     CountryCodeISO3.GTM,
@@ -219,8 +219,8 @@ public partial struct Country
                 CallingCodes = ["1441"],
                 Capital = "Hamilton",
                 AlternativeSpellings = ["BM", "The Islands of Bermuda", "The Bermudas", "Somers Isles"],
-                Region = "Americas",
-                SubRegion = "Northern America",
+                Continent = Continent.America,
+                Region = "Northern America",
                 Borders = [],
                 Landlocked = false,
                 Area = 54.0
@@ -246,8 +246,8 @@ public partial struct Country
                 CallingCodes = ["591"],
                 Capital = "Sucre",
                 AlternativeSpellings = ["BO", "Buliwya", "Wuliwya", "Bolivia, Plurinational State of", "Plurinational State of Bolivia", "Estado Plurinacional de Bolivia", "Buliwya Mamallaqta", "Wuliwya Suyu", "Tetã Volívia"],
-                Region = "Americas",
-                SubRegion = "South America",
+                Continent = Continent.America,
+                Region = "South America",
                 Borders =
                 [
                     CountryCodeISO3.ARG,
@@ -280,8 +280,8 @@ public partial struct Country
                 CallingCodes = ["55"],
                 Capital = "Brasília",
                 AlternativeSpellings = ["BR", "Brasil", "Federative Republic of Brazil", "República Federativa do Brasil"],
-                Region = "Americas",
-                SubRegion = "South America",
+                Continent = Continent.America,
+                Region = "South America",
                 Borders =
                 [
                     CountryCodeISO3.ARG,
@@ -319,8 +319,8 @@ public partial struct Country
                 CallingCodes = ["1246"],
                 Capital = "Bridgetown",
                 AlternativeSpellings = ["BB"],
-                Region = "Americas",
-                SubRegion = "Caribbean",
+                Continent = Continent.America,
+                Region = "Caribbean",
                 Borders = [],
                 Landlocked = false,
                 Area = 430.0
@@ -346,8 +346,8 @@ public partial struct Country
                 CallingCodes = ["1"],
                 Capital = "Ottawa",
                 AlternativeSpellings = ["CA"],
-                Region = "Americas",
-                SubRegion = "Northern America",
+                Continent = Continent.America,
+                Region = "Northern America",
                 Borders = [CountryCodeISO3.USA],
                 Landlocked = false,
                 Area = 9984670.0
@@ -373,8 +373,8 @@ public partial struct Country
                 CallingCodes = ["56"],
                 Capital = "Santiago",
                 AlternativeSpellings = ["CL", "Republic of Chile", "República de Chile"],
-                Region = "Americas",
-                SubRegion = "South America",
+                Continent = Continent.America,
+                Region = "South America",
                 Borders =
                 [
                     CountryCodeISO3.ARG,
@@ -405,8 +405,8 @@ public partial struct Country
                 CallingCodes = ["57"],
                 Capital = "Bogotá",
                 AlternativeSpellings = ["CO", "Republic of Colombia", "República de Colombia"],
-                Region = "Americas",
-                SubRegion = "South America",
+                Continent = Continent.America,
+                Region = "South America",
                 Borders =
                 [
                     CountryCodeISO3.BRA,
@@ -439,8 +439,8 @@ public partial struct Country
                 CallingCodes = ["506"],
                 Capital = "San José",
                 AlternativeSpellings = ["CR", "Republic of Costa Rica", "República de Costa Rica"],
-                Region = "Americas",
-                SubRegion = "Central America",
+                Continent = Continent.America,
+                Region = "Central America",
                 Borders =
                 [
                     CountryCodeISO3.NIC,
@@ -470,8 +470,8 @@ public partial struct Country
                 CallingCodes = ["53"],
                 Capital = "Havana",
                 AlternativeSpellings = ["CU", "Republic of Cuba", "República de Cuba"],
-                Region = "Americas",
-                SubRegion = "Caribbean",
+                Continent = Continent.America,
+                Region = "Caribbean",
                 Borders = [],
                 Landlocked = false,
                 Area = 109884.0
@@ -497,8 +497,8 @@ public partial struct Country
                 CallingCodes = ["5999"],
                 Capital = "Willemstad",
                 AlternativeSpellings = ["CW", "Curacao", "Kòrsou", "Country of Curaçao", "Land Curaçao", "Pais Kòrsou"],
-                Region = "Americas",
-                SubRegion = "Caribbean",
+                Continent = Continent.America,
+                Region = "Caribbean",
                 Borders = [],
                 Landlocked = false,
                 Area = 444.0
@@ -524,8 +524,8 @@ public partial struct Country
                 CallingCodes = ["1345"],
                 Capital = "George Town",
                 AlternativeSpellings = ["KY"],
-                Region = "Americas",
-                SubRegion = "Caribbean",
+                Continent = Continent.America,
+                Region = "Caribbean",
                 Borders = [],
                 Landlocked = false,
                 Area = 264.0
@@ -551,8 +551,8 @@ public partial struct Country
                 CallingCodes = ["1767"],
                 Capital = "Roseau",
                 AlternativeSpellings = ["DM", "Dominique", "Wai'tu kubuli", "Commonwealth of Dominica"],
-                Region = "Americas",
-                SubRegion = "Caribbean",
+                Continent = Continent.America,
+                Region = "Caribbean",
                 Borders = [],
                 Landlocked = false,
                 Area = 751.0
@@ -578,8 +578,8 @@ public partial struct Country
                 CallingCodes = ["1809", "1829", "1849"],
                 Capital = "Santo Domingo",
                 AlternativeSpellings = ["DO"],
-                Region = "Americas",
-                SubRegion = "Caribbean",
+                Continent = Continent.America,
+                Region = "Caribbean",
                 Borders = [CountryCodeISO3.HTI],
                 Landlocked = false,
                 Area = 48671.0
@@ -605,8 +605,8 @@ public partial struct Country
                 CallingCodes = ["593"],
                 Capital = "Quito",
                 AlternativeSpellings = ["EC", "Republic of Ecuador", "República del Ecuador"],
-                Region = "Americas",
-                SubRegion = "South America",
+                Continent = Continent.America,
+                Region = "South America",
                 Borders =
                 [
                     CountryCodeISO3.COL,
@@ -636,8 +636,8 @@ public partial struct Country
                 CallingCodes = ["500"],
                 Capital = "Stanley",
                 AlternativeSpellings = ["FK", "Islas Malvinas", "Falkland Islands (Malvinas)"],
-                Region = "Americas",
-                SubRegion = "South America",
+                Continent = Continent.America,
+                Region = "South America",
                 Borders = [],
                 Landlocked = false,
                 Area = 12173.0
@@ -663,8 +663,8 @@ public partial struct Country
                 CallingCodes = ["1473"],
                 Capital = "St. George's",
                 AlternativeSpellings = ["GD"],
-                Region = "Americas",
-                SubRegion = "Caribbean",
+                Continent = Continent.America,
+                Region = "Caribbean",
                 Borders = [],
                 Landlocked = false,
                 Area = 344.0
@@ -690,8 +690,8 @@ public partial struct Country
                 CallingCodes = ["299"],
                 Capital = "Nuuk",
                 AlternativeSpellings = ["GL", "Grønland"],
-                Region = "Americas",
-                SubRegion = "Northern America",
+                Continent = Continent.America,
+                Region = "Northern America",
                 Borders = [],
                 Landlocked = false,
                 Area = 2166086.0
@@ -717,8 +717,8 @@ public partial struct Country
                 CallingCodes = ["502"],
                 Capital = "Guatemala City",
                 AlternativeSpellings = ["GT"],
-                Region = "Americas",
-                SubRegion = "Central America",
+                Continent = Continent.America,
+                Region = "Central America",
                 Borders =
                 [
                     CountryCodeISO3.BLZ,
@@ -750,8 +750,8 @@ public partial struct Country
                 CallingCodes = ["594"],
                 Capital = "Cayenne",
                 AlternativeSpellings = ["GF", "Guiana", "Guyane"],
-                Region = "Americas",
-                SubRegion = "South America",
+                Continent = Continent.America,
+                Region = "South America",
                 Borders =
                 [
                     CountryCodeISO3.BRA,
@@ -781,8 +781,8 @@ public partial struct Country
                 CallingCodes = ["590"],
                 Capital = "Basse-Terre",
                 AlternativeSpellings = ["GP", "Gwadloup"],
-                Region = "Americas",
-                SubRegion = "Caribbean",
+                Continent = Continent.America,
+                Region = "Caribbean",
                 Borders = [],
                 Landlocked = false,
                 Area = 1628.0
@@ -808,8 +808,8 @@ public partial struct Country
                 CallingCodes = ["592"],
                 Capital = "Georgetown",
                 AlternativeSpellings = ["GY", "Co-operative Republic of Guyana"],
-                Region = "Americas",
-                SubRegion = "South America",
+                Continent = Continent.America,
+                Region = "South America",
                 Borders =
                 [
                     CountryCodeISO3.BRA,
@@ -840,8 +840,8 @@ public partial struct Country
                 CallingCodes = ["504"],
                 Capital = "Tegucigalpa",
                 AlternativeSpellings = ["HN", "Republic of Honduras", "República de Honduras"],
-                Region = "Americas",
-                SubRegion = "Central America",
+                Continent = Continent.America,
+                Region = "Central America",
                 Borders =
                 [
                     CountryCodeISO3.GTM,
@@ -872,8 +872,8 @@ public partial struct Country
                 CallingCodes = ["509"],
                 Capital = "Port-au-Prince",
                 AlternativeSpellings = ["HT", "Republic of Haiti", "République d'Haïti", "Repiblik Ayiti"],
-                Region = "Americas",
-                SubRegion = "Caribbean",
+                Continent = Continent.America,
+                Region = "Caribbean",
                 Borders = [CountryCodeISO3.DOM],
                 Landlocked = false,
                 Area = 27750.0
@@ -899,8 +899,8 @@ public partial struct Country
                 CallingCodes = ["1876"],
                 Capital = "Kingston",
                 AlternativeSpellings = ["JM"],
-                Region = "Americas",
-                SubRegion = "Caribbean",
+                Continent = Continent.America,
+                Region = "Caribbean",
                 Borders = [],
                 Landlocked = false,
                 Area = 10991.0
@@ -926,8 +926,8 @@ public partial struct Country
                 CallingCodes = ["1869"],
                 Capital = "Basseterre",
                 AlternativeSpellings = ["KN", "Federation of Saint Christopher and Nevis"],
-                Region = "Americas",
-                SubRegion = "Caribbean",
+                Continent = Continent.America,
+                Region = "Caribbean",
                 Borders = [],
                 Landlocked = false,
                 Area = 261.0
@@ -953,8 +953,8 @@ public partial struct Country
                 CallingCodes = ["1758"],
                 Capital = "Castries",
                 AlternativeSpellings = ["LC"],
-                Region = "Americas",
-                SubRegion = "Caribbean",
+                Continent = Continent.America,
+                Region = "Caribbean",
                 Borders = [],
                 Landlocked = false,
                 Area = 616.0
@@ -980,8 +980,8 @@ public partial struct Country
                 CallingCodes = ["590"],
                 Capital = "Marigot",
                 AlternativeSpellings = ["MF", "Collectivity of Saint Martin", "Collectivité de Saint-Martin", "Saint Martin (French part)"],
-                Region = "Americas",
-                SubRegion = "Caribbean",
+                Continent = Continent.America,
+                Region = "Caribbean",
                 Borders = [CountryCodeISO3.SXM],
                 Landlocked = false,
                 Area = 53.0
@@ -1007,8 +1007,8 @@ public partial struct Country
                 CallingCodes = ["52"],
                 Capital = "Mexico City",
                 AlternativeSpellings = ["MX", "Mexicanos", "United Mexican States", "Estados Unidos Mexicanos"],
-                Region = "Americas",
-                SubRegion = "Central America",
+                Continent = Continent.America,
+                Region = "Central America",
                 Borders =
                 [
                     CountryCodeISO3.BLZ,
@@ -1039,8 +1039,8 @@ public partial struct Country
                 CallingCodes = ["1664"],
                 Capital = "Plymouth",
                 AlternativeSpellings = ["MS"],
-                Region = "Americas",
-                SubRegion = "Caribbean",
+                Continent = Continent.America,
+                Region = "Caribbean",
                 Borders = [],
                 Landlocked = false,
                 Area = 102.0
@@ -1066,8 +1066,8 @@ public partial struct Country
                 CallingCodes = ["596"],
                 Capital = "Fort-de-France",
                 AlternativeSpellings = ["MQ"],
-                Region = "Americas",
-                SubRegion = "Caribbean",
+                Continent = Continent.America,
+                Region = "Caribbean",
                 Borders = [],
                 Landlocked = false,
                 Area = 1128.0
@@ -1093,8 +1093,8 @@ public partial struct Country
                 CallingCodes = ["505"],
                 Capital = "Managua",
                 AlternativeSpellings = ["NI", "Republic of Nicaragua", "República de Nicaragua"],
-                Region = "Americas",
-                SubRegion = "Central America",
+                Continent = Continent.America,
+                Region = "Central America",
                 Borders =
                 [
                     CountryCodeISO3.CRI,
@@ -1124,8 +1124,8 @@ public partial struct Country
                 CallingCodes = ["507"],
                 Capital = "Panama City",
                 AlternativeSpellings = ["PA", "Republic of Panama", "República de Panamá"],
-                Region = "Americas",
-                SubRegion = "Central America",
+                Continent = Continent.America,
+                Region = "Central America",
                 Borders =
                 [
                     CountryCodeISO3.COL,
@@ -1155,8 +1155,8 @@ public partial struct Country
                 CallingCodes = ["51"],
                 Capital = "Lima",
                 AlternativeSpellings = ["PE", "Republic of Peru", "República del Perú"],
-                Region = "Americas",
-                SubRegion = "South America",
+                Continent = Continent.America,
+                Region = "South America",
                 Borders =
                 [
                     CountryCodeISO3.BOL,
@@ -1189,8 +1189,8 @@ public partial struct Country
                 CallingCodes = ["1787", "1939"],
                 Capital = "San Juan",
                 AlternativeSpellings = ["PR", "Commonwealth of Puerto Rico", "Estado Libre Asociado de Puerto Rico"],
-                Region = "Americas",
-                SubRegion = "Caribbean",
+                Continent = Continent.America,
+                Region = "Caribbean",
                 Borders = [],
                 Landlocked = false,
                 Area = 8870.0
@@ -1216,8 +1216,8 @@ public partial struct Country
                 CallingCodes = ["595"],
                 Capital = "Asunción",
                 AlternativeSpellings = ["PY", "Republic of Paraguay", "República del Paraguay", "Tetã Paraguái"],
-                Region = "Americas",
-                SubRegion = "South America",
+                Continent = Continent.America,
+                Region = "South America",
                 Borders =
                 [
                     CountryCodeISO3.ARG,
@@ -1248,8 +1248,8 @@ public partial struct Country
                 CallingCodes = ["500"],
                 Capital = "King Edward Point",
                 AlternativeSpellings = ["GS", "South Georgia and the South Sandwich Islands"],
-                Region = "Americas",
-                SubRegion = "South America",
+                Continent = Continent.America,
+                Region = "South America",
                 Borders = [],
                 Landlocked = false,
                 Area = 3903.0
@@ -1275,8 +1275,8 @@ public partial struct Country
                 CallingCodes = ["503"],
                 Capital = "San Salvador",
                 AlternativeSpellings = ["SV", "Republic of El Salvador", "República de El Salvador"],
-                Region = "Americas",
-                SubRegion = "Central America",
+                Continent = Continent.America,
+                Region = "Central America",
                 Borders =
                 [
                     CountryCodeISO3.GTM,
@@ -1306,8 +1306,8 @@ public partial struct Country
                 CallingCodes = ["508"],
                 Capital = "Saint-Pierre",
                 AlternativeSpellings = ["PM", "Collectivité territoriale de Saint-Pierre-et-Miquelon"],
-                Region = "Americas",
-                SubRegion = "Northern America",
+                Continent = Continent.America,
+                Region = "Northern America",
                 Borders = [],
                 Landlocked = false,
                 Area = 242.0
@@ -1333,8 +1333,8 @@ public partial struct Country
                 CallingCodes = ["597"],
                 Capital = "Paramaribo",
                 AlternativeSpellings = ["SR", "Sarnam", "Sranangron", "Republic of Suriname", "Republiek Suriname"],
-                Region = "Americas",
-                SubRegion = "South America",
+                Continent = Continent.America,
+                Region = "South America",
                 Borders =
                 [
                     CountryCodeISO3.BRA,
@@ -1365,8 +1365,8 @@ public partial struct Country
                 CallingCodes = ["1721"],
                 Capital = "Philipsburg",
                 AlternativeSpellings = ["SX", "Sint Maarten (Dutch part)"],
-                Region = "Americas",
-                SubRegion = "Caribbean",
+                Continent = Continent.America,
+                Region = "Caribbean",
                 Borders = [CountryCodeISO3.MAF],
                 Landlocked = false,
                 Area = 34.0
@@ -1392,8 +1392,8 @@ public partial struct Country
                 CallingCodes = ["1649"],
                 Capital = "Cockburn Town",
                 AlternativeSpellings = ["TC"],
-                Region = "Americas",
-                SubRegion = "Caribbean",
+                Continent = Continent.America,
+                Region = "Caribbean",
                 Borders = [],
                 Landlocked = false,
                 Area = 948.0
@@ -1419,8 +1419,8 @@ public partial struct Country
                 CallingCodes = ["1868"],
                 Capital = "Port of Spain",
                 AlternativeSpellings = ["TT", "Republic of Trinidad and Tobago"],
-                Region = "Americas",
-                SubRegion = "Caribbean",
+                Continent = Continent.America,
+                Region = "Caribbean",
                 Borders = [],
                 Landlocked = false,
                 Area = 5130.0
@@ -1445,8 +1445,8 @@ public partial struct Country
                 Currencies = ["USD"],
                 Capital = "",
                 AlternativeSpellings = ["UM"],
-                Region = "Americas",
-                SubRegion = "Northern America",
+                Continent = Continent.America,
+                Region = "Northern America",
                 Borders = [],
                 Landlocked = false,
                 Area = 34.0
@@ -1472,8 +1472,8 @@ public partial struct Country
                 CallingCodes = ["598"],
                 Capital = "Montevideo",
                 AlternativeSpellings = ["UY", "Oriental Republic of Uruguay", "República Oriental del Uruguay"],
-                Region = "Americas",
-                SubRegion = "South America",
+                Continent = Continent.America,
+                Region = "South America",
                 Borders =
                 [
                     CountryCodeISO3.ARG,
@@ -1503,8 +1503,8 @@ public partial struct Country
                 CallingCodes = ["1"],
                 Capital = "Washington D.C.",
                 AlternativeSpellings = ["US", "USA", "United States of America"],
-                Region = "Americas",
-                SubRegion = "Northern America",
+                Continent = Continent.America,
+                Region = "Northern America",
                 Borders =
                 [
                     CountryCodeISO3.CAN,
@@ -1534,8 +1534,8 @@ public partial struct Country
                 CallingCodes = ["1784"],
                 Capital = "Kingstown",
                 AlternativeSpellings = ["VC"],
-                Region = "Americas",
-                SubRegion = "Caribbean",
+                Continent = Continent.America,
+                Region = "Caribbean",
                 Borders = [],
                 Landlocked = false,
                 Area = 389.0
@@ -1561,8 +1561,8 @@ public partial struct Country
                 CallingCodes = ["58"],
                 Capital = "Caracas",
                 AlternativeSpellings = ["VE", "Bolivarian Republic of Venezuela", "Venezuela, Bolivarian Republic of", "República Bolivariana de Venezuela"],
-                Region = "Americas",
-                SubRegion = "South America",
+                Continent = Continent.America,
+                Region = "South America",
                 Borders =
                 [
                     CountryCodeISO3.BRA,
@@ -1593,8 +1593,8 @@ public partial struct Country
                 CallingCodes = ["1284"],
                 Capital = "Road Town",
                 AlternativeSpellings = ["VG", "Virgin Islands, British"],
-                Region = "Americas",
-                SubRegion = "Caribbean",
+                Continent = Continent.America,
+                Region = "Caribbean",
                 Borders = [],
                 Landlocked = false,
                 Area = 151.0
@@ -1620,8 +1620,8 @@ public partial struct Country
                 CallingCodes = ["1340"],
                 Capital = "Charlotte Amalie",
                 AlternativeSpellings = ["VI", "Virgin Islands, U.S."],
-                Region = "Americas",
-                SubRegion = "Caribbean",
+                Continent = Continent.America,
+                Region = "Caribbean",
                 Borders = [],
                 Landlocked = false,
                 Area = 347.0

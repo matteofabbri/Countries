@@ -34,7 +34,7 @@ public class CountryCollectionTests
     [TestCase("Americas")]
     [TestCase("Oceania")]
     public void All_EachRegion_ShouldHaveAtLeastOneCountry(string region)
-        => Assert.That(Country.All.Any(c => c.Region == region), Is.True,
+        => Assert.That(Country.All.Any(c => c.Continent == region), Is.True,
             $"Region '{region}' should have at least one country");
 
     [Test]

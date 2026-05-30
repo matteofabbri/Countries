@@ -19,8 +19,8 @@ public partial struct Country
                 CallingCodes = ["358"],
                 Capital = "Mariehamn",
                 AlternativeSpellings = ["AX", "Aaland", "Aland", "Ahvenanmaa"],
-                Region = "Europe",
-                SubRegion = "Northern Europe",
+                Continent = Continent.Europe,
+                Region = "Northern Europe",
                 Borders = [],
                 Landlocked = false,
                 Area = 1580.0
@@ -46,8 +46,8 @@ public partial struct Country
                 CallingCodes = ["355"],
                 Capital = "Tirana",
                 AlternativeSpellings = ["AL", "Shqipëri", "Shqipëria", "Shqipnia"],
-                Region = "Europe",
-                SubRegion = "Southern Europe",
+                Continent = Continent.Europe,
+                Region = "Southern Europe",
                 Borders =
                 [
                     CountryCodeISO3.MNE,
@@ -79,8 +79,8 @@ public partial struct Country
                 CallingCodes = ["376"],
                 Capital = "Andorra la Vella",
                 AlternativeSpellings = ["AD", "Principality of Andorra", "Principat d'Andorra"],
-                Region = "Europe",
-                SubRegion = "Southern Europe",
+                Continent = Continent.Europe,
+                Region = "Southern Europe",
                 Borders =
                 [
                     CountryCodeISO3.FRA,
@@ -110,8 +110,8 @@ public partial struct Country
                 CallingCodes = ["43"],
                 Capital = "Vienna",
                 AlternativeSpellings = ["AT", "Osterreich", "Oesterreich"],
-                Region = "Europe",
-                SubRegion = "Western Europe",
+                Continent = Continent.Europe,
+                Region = "Western Europe",
                 Borders =
                 [
                     CountryCodeISO3.CZE,
@@ -147,8 +147,8 @@ public partial struct Country
                 CallingCodes = ["32"],
                 Capital = "Brussels",
                 AlternativeSpellings = ["BE", "België", "Belgie", "Belgien", "Belgique", "Kingdom of Belgium", "Koninkrijk België", "Royaume de Belgique", "Königreich Belgien"],
-                Region = "Europe",
-                SubRegion = "Western Europe",
+                Continent = Continent.Europe,
+                Region = "Western Europe",
                 Borders =
                 [
                     CountryCodeISO3.FRA,
@@ -180,8 +180,8 @@ public partial struct Country
                 CallingCodes = ["359"],
                 Capital = "Sofia",
                 AlternativeSpellings = ["BG", "Republic of Bulgaria", "Република България"],
-                Region = "Europe",
-                SubRegion = "Eastern Europe",
+                Continent = Continent.Europe,
+                Region = "Eastern Europe",
                 Borders =
                 [
                     CountryCodeISO3.GRC,
@@ -214,8 +214,8 @@ public partial struct Country
                 CallingCodes = ["387"],
                 Capital = "Sarajevo",
                 AlternativeSpellings = ["BA", "Bosnia-Herzegovina", "Босна и Херцеговина"],
-                Region = "Europe",
-                SubRegion = "Southern Europe",
+                Continent = Continent.Europe,
+                Region = "Southern Europe",
                 Borders =
                 [
                     CountryCodeISO3.HRV,
@@ -246,8 +246,8 @@ public partial struct Country
                 CallingCodes = ["375"],
                 Capital = "Minsk",
                 AlternativeSpellings = ["BY", "Bielaruś", "Republic of Belarus", "Белоруссия", "Республика Беларусь", "Belorussiya", "Respublika Belarus'"],
-                Region = "Europe",
-                SubRegion = "Eastern Europe",
+                Continent = Continent.Europe,
+                Region = "Eastern Europe",
                 Borders =
                 [
                     CountryCodeISO3.LVA,
@@ -280,8 +280,8 @@ public partial struct Country
                 CallingCodes = ["41"],
                 Capital = "Bern",
                 AlternativeSpellings = ["CH", "Swiss Confederation", "Schweiz", "Suisse", "Svizzera", "Svizra"],
-                Region = "Europe",
-                SubRegion = "Western Europe",
+                Continent = Continent.Europe,
+                Region = "Western Europe",
                 Borders =
                 [
                     CountryCodeISO3.AUT,
@@ -314,8 +314,8 @@ public partial struct Country
                 CallingCodes = ["357"],
                 Capital = "Nicosia",
                 AlternativeSpellings = ["CY", "Kýpros", "Kıbrıs", "Republic of Cyprus", "Κυπριακή Δημοκρατία", "Kıbrıs Cumhuriyeti"],
-                Region = "Europe",
-                SubRegion = "Eastern Europe",
+                Continent = Continent.Europe,
+                Region = "Eastern Europe",
                 Borders = [CountryCodeISO3.GBR],
                 Landlocked = false,
                 Area = 9251.0
@@ -341,8 +341,8 @@ public partial struct Country
                 CallingCodes = ["420"],
                 Capital = "Prague",
                 AlternativeSpellings = ["CZ", "Česká republika", "Česko"],
-                Region = "Europe",
-                SubRegion = "Eastern Europe",
+                Continent = Continent.Europe,
+                Region = "Eastern Europe",
                 Borders =
                 [
                     CountryCodeISO3.AUT,
@@ -374,8 +374,8 @@ public partial struct Country
                 CallingCodes = ["49"],
                 Capital = "Berlin",
                 AlternativeSpellings = ["DE", "Federal Republic of Germany", "Bundesrepublik Deutschland"],
-                Region = "Europe",
-                SubRegion = "Western Europe",
+                Continent = Continent.Europe,
+                Region = "Western Europe",
                 Borders =
                 [
                     CountryCodeISO3.AUT,
@@ -412,8 +412,8 @@ public partial struct Country
                 CallingCodes = ["45"],
                 Capital = "Copenhagen",
                 AlternativeSpellings = ["DK", "Danmark", "Kingdom of Denmark", "Kongeriget Danmark"],
-                Region = "Europe",
-                SubRegion = "Northern Europe",
+                Continent = Continent.Europe,
+                Region = "Northern Europe",
                 Borders = [CountryCodeISO3.DEU],
                 Landlocked = false,
                 Area = 43094.0
@@ -439,8 +439,8 @@ public partial struct Country
                 CallingCodes = ["34"],
                 Capital = "Madrid",
                 AlternativeSpellings = ["ES", "Kingdom of Spain", "Reino de España"],
-                Region = "Europe",
-                SubRegion = "Southern Europe",
+                Continent = Continent.Europe,
+                Region = "Southern Europe",
                 Borders =
                 [
                     CountryCodeISO3.AND,
@@ -473,8 +473,8 @@ public partial struct Country
                 CallingCodes = ["372"],
                 Capital = "Tallinn",
                 AlternativeSpellings = ["EE", "Eesti", "Republic of Estonia", "Eesti Vabariik"],
-                Region = "Europe",
-                SubRegion = "Northern Europe",
+                Continent = Continent.Europe,
+                Region = "Northern Europe",
                 Borders =
                 [
                     CountryCodeISO3.LVA,
@@ -504,8 +504,8 @@ public partial struct Country
                 CallingCodes = ["358"],
                 Capital = "Helsinki",
                 AlternativeSpellings = ["FI", "Suomi", "Republic of Finland", "Suomen tasavalta", "Republiken Finland"],
-                Region = "Europe",
-                SubRegion = "Northern Europe",
+                Continent = Continent.Europe,
+                Region = "Northern Europe",
                 Borders =
                 [
                     CountryCodeISO3.NOR,
@@ -536,8 +536,8 @@ public partial struct Country
                 CallingCodes = ["33"],
                 Capital = "Paris",
                 AlternativeSpellings = ["FR", "French Republic", "République française"],
-                Region = "Europe",
-                SubRegion = "Western Europe",
+                Continent = Continent.Europe,
+                Region = "Western Europe",
                 Borders =
                 [
                     CountryCodeISO3.AND,
@@ -573,8 +573,8 @@ public partial struct Country
                 CallingCodes = ["298"],
                 Capital = "Tórshavn",
                 AlternativeSpellings = ["FO", "Føroyar", "Færøerne"],
-                Region = "Europe",
-                SubRegion = "Northern Europe",
+                Continent = Continent.Europe,
+                Region = "Northern Europe",
                 Borders = [],
                 Landlocked = false,
                 Area = 1393.0
@@ -600,8 +600,8 @@ public partial struct Country
                 CallingCodes = ["44"],
                 Capital = "London",
                 AlternativeSpellings = ["GB", "UK", "Great Britain"],
-                Region = "Europe",
-                SubRegion = "Northern Europe",
+                Continent = Continent.Europe,
+                Region = "Northern Europe",
                 Borders = [CountryCodeISO3.IRL],
                 Landlocked = false,
                 Area = 242900.0
@@ -627,8 +627,8 @@ public partial struct Country
                 CallingCodes = ["44"],
                 Capital = "St. Peter Port",
                 AlternativeSpellings = ["GG", "Bailiwick of Guernsey", "Bailliage de Guernesey"],
-                Region = "Europe",
-                SubRegion = "Northern Europe",
+                Continent = Continent.Europe,
+                Region = "Northern Europe",
                 Borders = [],
                 Landlocked = false,
                 Area = 78.0
@@ -654,8 +654,8 @@ public partial struct Country
                 CallingCodes = ["350"],
                 Capital = "Gibraltar",
                 AlternativeSpellings = ["GI"],
-                Region = "Europe",
-                SubRegion = "Southern Europe",
+                Continent = Continent.Europe,
+                Region = "Southern Europe",
                 Borders = [CountryCodeISO3.ESP],
                 Landlocked = false,
                 Area = 6.0
@@ -681,8 +681,8 @@ public partial struct Country
                 CallingCodes = ["30"],
                 Capital = "Athens",
                 AlternativeSpellings = ["GR", "Elláda", "Hellenic Republic", "Ελληνική Δημοκρατία"],
-                Region = "Europe",
-                SubRegion = "Southern Europe",
+                Continent = Continent.Europe,
+                Region = "Southern Europe",
                 Borders =
                 [
                     CountryCodeISO3.ALB,
@@ -714,8 +714,8 @@ public partial struct Country
                 CallingCodes = ["385"],
                 Capital = "Zagreb",
                 AlternativeSpellings = ["HR", "Hrvatska", "Republic of Croatia", "Republika Hrvatska"],
-                Region = "Europe",
-                SubRegion = "Southern Europe",
+                Continent = Continent.Europe,
+                Region = "Southern Europe",
                 Borders =
                 [
                     CountryCodeISO3.BIH,
@@ -748,8 +748,8 @@ public partial struct Country
                 CallingCodes = ["36"],
                 Capital = "Budapest",
                 AlternativeSpellings = ["HU"],
-                Region = "Europe",
-                SubRegion = "Eastern Europe",
+                Continent = Continent.Europe,
+                Region = "Eastern Europe",
                 Borders =
                 [
                     CountryCodeISO3.AUT,
@@ -784,8 +784,8 @@ public partial struct Country
                 CallingCodes = ["44"],
                 Capital = "Douglas",
                 AlternativeSpellings = ["IM", "Ellan Vannin", "Mann", "Mannin"],
-                Region = "Europe",
-                SubRegion = "Northern Europe",
+                Continent = Continent.Europe,
+                Region = "Northern Europe",
                 Borders = [],
                 Landlocked = false,
                 Area = 572.0
@@ -811,8 +811,8 @@ public partial struct Country
                 CallingCodes = ["353"],
                 Capital = "Dublin",
                 AlternativeSpellings = ["IE", "Éire", "Republic of Ireland", "Poblacht na hÉireann"],
-                Region = "Europe",
-                SubRegion = "Northern Europe",
+                Continent = Continent.Europe,
+                Region = "Northern Europe",
                 Borders = [CountryCodeISO3.GBR],
                 Landlocked = false,
                 Area = 70273.0
@@ -838,8 +838,8 @@ public partial struct Country
                 CallingCodes = ["354"],
                 Capital = "Reykjavik",
                 AlternativeSpellings = ["IS", "Island", "Republic of Iceland", "Lýðveldið Ísland"],
-                Region = "Europe",
-                SubRegion = "Northern Europe",
+                Continent = Continent.Europe,
+                Region = "Northern Europe",
                 Borders = [],
                 Landlocked = false,
                 Area = 103000.0
@@ -865,8 +865,8 @@ public partial struct Country
                 CallingCodes = ["39"],
                 Capital = "Rome",
                 AlternativeSpellings = ["IT", "Italian Republic", "Repubblica italiana"],
-                Region = "Europe",
-                SubRegion = "Southern Europe",
+                Continent = Continent.Europe,
+                Region = "Southern Europe",
                 Borders =
                 [
                     CountryCodeISO3.AUT,
@@ -900,8 +900,8 @@ public partial struct Country
                 CallingCodes = ["44"],
                 Capital = "Saint Helier",
                 AlternativeSpellings = ["JE", "Bailiwick of Jersey", "Bailliage de Jersey", "Bailliage dé Jèrri"],
-                Region = "Europe",
-                SubRegion = "Northern Europe",
+                Continent = Continent.Europe,
+                Region = "Northern Europe",
                 Borders = [],
                 Landlocked = false,
                 Area = 116.0
@@ -927,8 +927,8 @@ public partial struct Country
                 CallingCodes = ["383"],
                 Capital = "Pristina",
                 AlternativeSpellings = ["XK", "Република Косово"],
-                Region = "Europe",
-                SubRegion = "Eastern Europe",
+                Continent = Continent.Europe,
+                Region = "Eastern Europe",
                 Borders =
                 [
                     CountryCodeISO3.ALB,
@@ -960,8 +960,8 @@ public partial struct Country
                 CallingCodes = ["423"],
                 Capital = "Vaduz",
                 AlternativeSpellings = ["LI", "Principality of Liechtenstein", "Fürstentum Liechtenstein"],
-                Region = "Europe",
-                SubRegion = "Western Europe",
+                Continent = Continent.Europe,
+                Region = "Western Europe",
                 Borders =
                 [
                     CountryCodeISO3.AUT,
@@ -991,8 +991,8 @@ public partial struct Country
                 CallingCodes = ["370"],
                 Capital = "Vilnius",
                 AlternativeSpellings = ["LT", "Republic of Lithuania", "Lietuvos Respublika"],
-                Region = "Europe",
-                SubRegion = "Northern Europe",
+                Continent = Continent.Europe,
+                Region = "Northern Europe",
                 Borders =
                 [
                     CountryCodeISO3.BLR,
@@ -1024,8 +1024,8 @@ public partial struct Country
                 CallingCodes = ["352"],
                 Capital = "Luxembourg",
                 AlternativeSpellings = ["LU", "Grand Duchy of Luxembourg", "Grand-Duché de Luxembourg", "Großherzogtum Luxemburg", "Groussherzogtum Lëtzebuerg"],
-                Region = "Europe",
-                SubRegion = "Western Europe",
+                Continent = Continent.Europe,
+                Region = "Western Europe",
                 Borders =
                 [
                     CountryCodeISO3.BEL,
@@ -1056,8 +1056,8 @@ public partial struct Country
                 CallingCodes = ["371"],
                 Capital = "Riga",
                 AlternativeSpellings = ["LV", "Republic of Latvia", "Latvijas Republika"],
-                Region = "Europe",
-                SubRegion = "Northern Europe",
+                Continent = Continent.Europe,
+                Region = "Northern Europe",
                 Borders =
                 [
                     CountryCodeISO3.BLR,
@@ -1089,8 +1089,8 @@ public partial struct Country
                 CallingCodes = ["377"],
                 Capital = "Monaco",
                 AlternativeSpellings = ["MC", "Principality of Monaco", "Principauté de Monaco"],
-                Region = "Europe",
-                SubRegion = "Western Europe",
+                Continent = Continent.Europe,
+                Region = "Western Europe",
                 Borders = [CountryCodeISO3.FRA],
                 Landlocked = false,
                 Area = 2.0
@@ -1116,8 +1116,8 @@ public partial struct Country
                 CallingCodes = ["373"],
                 Capital = "Chișinău",
                 AlternativeSpellings = ["MD", "Moldova, Republic of", "Republic of Moldova", "Republica Moldova"],
-                Region = "Europe",
-                SubRegion = "Eastern Europe",
+                Continent = Continent.Europe,
+                Region = "Eastern Europe",
                 Borders =
                 [
                     CountryCodeISO3.ROU,
@@ -1147,8 +1147,8 @@ public partial struct Country
                 CallingCodes = ["389"],
                 Capital = "Skopje",
                 AlternativeSpellings = ["MK", "Macedonia, the Former Yugoslav Republic of", "Republic of Macedonia", "Република Македонија"],
-                Region = "Europe",
-                SubRegion = "Southern Europe",
+                Continent = Continent.Europe,
+                Region = "Southern Europe",
                 Borders =
                 [
                     CountryCodeISO3.ALB,
@@ -1181,8 +1181,8 @@ public partial struct Country
                 CallingCodes = ["356"],
                 Capital = "Valletta",
                 AlternativeSpellings = ["MT", "Republic of Malta", "Repubblika ta' Malta"],
-                Region = "Europe",
-                SubRegion = "Southern Europe",
+                Continent = Continent.Europe,
+                Region = "Southern Europe",
                 Borders = [],
                 Landlocked = false,
                 Area = 316.0
@@ -1208,8 +1208,8 @@ public partial struct Country
                 CallingCodes = ["382"],
                 Capital = "Podgorica",
                 AlternativeSpellings = ["ME", "Crna Gora"],
-                Region = "Europe",
-                SubRegion = "Southern Europe",
+                Continent = Continent.Europe,
+                Region = "Southern Europe",
                 Borders =
                 [
                     CountryCodeISO3.ALB,
@@ -1242,8 +1242,8 @@ public partial struct Country
                 CallingCodes = ["31"],
                 Capital = "Amsterdam",
                 AlternativeSpellings = ["NL", "Holland", "Nederland"],
-                Region = "Europe",
-                SubRegion = "Western Europe",
+                Continent = Continent.Europe,
+                Region = "Western Europe",
                 Borders =
                 [
                     CountryCodeISO3.BEL,
@@ -1273,8 +1273,8 @@ public partial struct Country
                 CallingCodes = ["47"],
                 Capital = "Oslo",
                 AlternativeSpellings = ["NO", "Norge", "Noreg", "Kingdom of Norway", "Kongeriket Norge", "Kongeriket Noreg"],
-                Region = "Europe",
-                SubRegion = "Northern Europe",
+                Continent = Continent.Europe,
+                Region = "Northern Europe",
                 Borders =
                 [
                     CountryCodeISO3.FIN,
@@ -1305,8 +1305,8 @@ public partial struct Country
                 CallingCodes = ["48"],
                 Capital = "Warsaw",
                 AlternativeSpellings = ["PL", "Republic of Poland", "Rzeczpospolita Polska"],
-                Region = "Europe",
-                SubRegion = "Eastern Europe",
+                Continent = Continent.Europe,
+                Region = "Eastern Europe",
                 Borders =
                 [
                     CountryCodeISO3.BLR,
@@ -1341,8 +1341,8 @@ public partial struct Country
                 CallingCodes = ["351"],
                 Capital = "Lisbon",
                 AlternativeSpellings = ["PT", "Portuguesa", "Portuguese Republic", "República Portuguesa"],
-                Region = "Europe",
-                SubRegion = "Southern Europe",
+                Continent = Continent.Europe,
+                Region = "Southern Europe",
                 Borders = [CountryCodeISO3.ESP],
                 Landlocked = false,
                 Area = 92090.0
@@ -1368,8 +1368,8 @@ public partial struct Country
                 CallingCodes = ["40"],
                 Capital = "Bucharest",
                 AlternativeSpellings = ["RO", "Rumania", "Roumania", "România"],
-                Region = "Europe",
-                SubRegion = "Eastern Europe",
+                Continent = Continent.Europe,
+                Region = "Eastern Europe",
                 Borders =
                 [
                     CountryCodeISO3.BGR,
@@ -1402,8 +1402,8 @@ public partial struct Country
                 CallingCodes = ["7"],
                 Capital = "Moscow",
                 AlternativeSpellings = ["RU", "Rossiya", "Russian Federation", "Российская Федерация", "Rossiyskaya Federatsiya"],
-                Region = "Europe",
-                SubRegion = "Eastern Europe",
+                Continent = Continent.Europe,
+                Region = "Eastern Europe",
                 Borders =
                 [
                     CountryCodeISO3.AZE,
@@ -1445,8 +1445,8 @@ public partial struct Country
                 CallingCodes = ["378"],
                 Capital = "City of San Marino",
                 AlternativeSpellings = ["SM", "Republic of San Marino", "Repubblica di San Marino"],
-                Region = "Europe",
-                SubRegion = "Southern Europe",
+                Continent = Continent.Europe,
+                Region = "Southern Europe",
                 Borders = [CountryCodeISO3.ITA],
                 Landlocked = true,
                 Area = 61.0
@@ -1472,8 +1472,8 @@ public partial struct Country
                 CallingCodes = ["381"],
                 Capital = "Belgrade",
                 AlternativeSpellings = ["RS", "Srbija", "Republic of Serbia", "Република Србија", "Republika Srbija"],
-                Region = "Europe",
-                SubRegion = "Southern Europe",
+                Continent = Continent.Europe,
+                Region = "Southern Europe",
                 Borders =
                 [
                     CountryCodeISO3.BIH,
@@ -1509,8 +1509,8 @@ public partial struct Country
                 CallingCodes = ["4779"],
                 Capital = "Longyearbyen",
                 AlternativeSpellings = ["SJ", "Svalbard and Jan Mayen Islands"],
-                Region = "Europe",
-                SubRegion = "Northern Europe",
+                Continent = Continent.Europe,
+                Region = "Northern Europe",
                 Borders = [],
                 Landlocked = false,
                 Area = -1.0
@@ -1536,8 +1536,8 @@ public partial struct Country
                 CallingCodes = ["421"],
                 Capital = "Bratislava",
                 AlternativeSpellings = ["SK", "Slovak Republic", "Slovenská republika"],
-                Region = "Europe",
-                SubRegion = "Eastern Europe",
+                Continent = Continent.Europe,
+                Region = "Eastern Europe",
                 Borders =
                 [
                     CountryCodeISO3.AUT,
@@ -1570,8 +1570,8 @@ public partial struct Country
                 CallingCodes = ["386"],
                 Capital = "Ljubljana",
                 AlternativeSpellings = ["SI", "Republic of Slovenia", "Republika Slovenija"],
-                Region = "Europe",
-                SubRegion = "Southern Europe",
+                Continent = Continent.Europe,
+                Region = "Southern Europe",
                 Borders =
                 [
                     CountryCodeISO3.AUT,
@@ -1603,8 +1603,8 @@ public partial struct Country
                 CallingCodes = ["46"],
                 Capital = "Stockholm",
                 AlternativeSpellings = ["SE", "Kingdom of Sweden", "Konungariket Sverige"],
-                Region = "Europe",
-                SubRegion = "Northern Europe",
+                Continent = Continent.Europe,
+                Region = "Northern Europe",
                 Borders =
                 [
                     CountryCodeISO3.FIN,
@@ -1634,8 +1634,8 @@ public partial struct Country
                 CallingCodes = ["380"],
                 Capital = "Kiev",
                 AlternativeSpellings = ["UA", "Ukrayina"],
-                Region = "Europe",
-                SubRegion = "Eastern Europe",
+                Continent = Continent.Europe,
+                Region = "Eastern Europe",
                 Borders =
                 [
                     CountryCodeISO3.BLR,
@@ -1670,8 +1670,8 @@ public partial struct Country
                 CallingCodes = ["3906698", "379"],
                 Capital = "Vatican City",
                 AlternativeSpellings = ["VA", "Holy See (Vatican City State)", "Vatican City State", "Stato della Città del Vaticano"],
-                Region = "Europe",
-                SubRegion = "Southern Europe",
+                Continent = Continent.Europe,
+                Region = "Southern Europe",
                 Borders = [CountryCodeISO3.ITA],
                 Landlocked = true,
                 Area = 0.0

@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <AssemblyName>Countries</AssemblyName>
+    <AssemblyName>Countries.Standard</AssemblyName>
 
     <!-- Multi-targeting -->
     <TargetFrameworks>netstandard2.0;net6.0;net8.0;net10.0</TargetFrameworks>
@@ -15,7 +15,7 @@
     <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
 
     <!-- NuGet metadata -->
-    <PackageId>Countries</PackageId>
+    <PackageId>Countries.Standard</PackageId>
     <Version>1.0.0</Version>
     <Authors>Matteo Fabbri</Authors>
     <Company>Matteo Fabbri</Company>
@@ -37,8 +37,8 @@ High‑performance fuzzy search with accent removal and typo tolerance
 Multi‑targeting: .NET Standard 2.0, .NET 6, .NET 8, .NET 10
 
 Suitable for libraries, backend services, validation layers, and data processing</Description>
-    <AssemblyTitle>Countries</AssemblyTitle>
-    <Product>Countries</Product>
+    <AssemblyTitle>Countries.Standard</AssemblyTitle>
+    <Product>Countries.Standard</Product>
     <PackageTags>countries;country;iso;iso3166;iso2;iso3;country-codes;geography;geodata;region;subregion;tld;calling-codes;fuzzy-search;normalization;internationalization;globalization;dataset;lookup;validation</PackageTags>
 
     <!-- Repository info -->

@@ -19,8 +19,8 @@ public partial struct Country
                 CallingCodes = ["93"],
                 Capital = "Kabul",
                 AlternativeSpellings = ["AF", "Afġānistān"],
-                Region = "Asia",
-                SubRegion = "Southern Asia",
+                Continent = Continent.Asia,
+                Region = "Southern Asia",
                 Borders =
                 [
                     CountryCodeISO3.IRN,
@@ -54,8 +54,8 @@ public partial struct Country
                 CallingCodes = ["971"],
                 Capital = "Abu Dhabi",
                 AlternativeSpellings = ["AE", "UAE", "Emirates"],
-                Region = "Asia",
-                SubRegion = "Western Asia",
+                Continent = Continent.Asia,
+                Region = "Western Asia",
                 Borders =
                 [
                     CountryCodeISO3.OMN,
@@ -85,8 +85,8 @@ public partial struct Country
                 CallingCodes = ["374"],
                 Capital = "Yerevan",
                 AlternativeSpellings = ["AM", "Hayastan", "Republic of Armenia", "Հայաստանի Հանրապետություն"],
-                Region = "Asia",
-                SubRegion = "Western Asia",
+                Continent = Continent.Asia,
+                Region = "Western Asia",
                 Borders =
                 [
                     CountryCodeISO3.AZE,
@@ -118,8 +118,8 @@ public partial struct Country
                 CallingCodes = ["994"],
                 Capital = "Baku",
                 AlternativeSpellings = ["AZ", "Republic of Azerbaijan", "Azərbaycan Respublikası"],
-                Region = "Asia",
-                SubRegion = "Western Asia",
+                Continent = Continent.Asia,
+                Region = "Western Asia",
                 Borders =
                 [
                     CountryCodeISO3.ARM,
@@ -152,8 +152,8 @@ public partial struct Country
                 CallingCodes = ["880"],
                 Capital = "Dhaka",
                 AlternativeSpellings = ["BD", "People's Republic of Bangladesh", "Gônôprôjatôntri Bangladesh"],
-                Region = "Asia",
-                SubRegion = "Southern Asia",
+                Continent = Continent.Asia,
+                Region = "Southern Asia",
                 Borders =
                 [
                     CountryCodeISO3.MMR,
@@ -183,8 +183,8 @@ public partial struct Country
                 CallingCodes = ["973"],
                 Capital = "Manama",
                 AlternativeSpellings = ["BH", "Kingdom of Bahrain", "Mamlakat al-Baḥrayn"],
-                Region = "Asia",
-                SubRegion = "Western Asia",
+                Continent = Continent.Asia,
+                Region = "Western Asia",
                 Borders = [],
                 Landlocked = false,
                 Area = 765.0
@@ -210,8 +210,8 @@ public partial struct Country
                 CallingCodes = ["673"],
                 Capital = "Bandar Seri Begawan",
                 AlternativeSpellings = ["BN", "Brunei Darussalam", "Nation of Brunei", "the Abode of Peace"],
-                Region = "Asia",
-                SubRegion = "South-Eastern Asia",
+                Continent = Continent.Asia,
+                Region = "South-Eastern Asia",
                 Borders = [CountryCodeISO3.MYS],
                 Landlocked = false,
                 Area = 5765.0
@@ -237,8 +237,8 @@ public partial struct Country
                 CallingCodes = ["975"],
                 Capital = "Thimphu",
                 AlternativeSpellings = ["BT", "Kingdom of Bhutan"],
-                Region = "Asia",
-                SubRegion = "Southern Asia",
+                Continent = Continent.Asia,
+                Region = "Southern Asia",
                 Borders =
                 [
                     CountryCodeISO3.CHN,
@@ -268,8 +268,8 @@ public partial struct Country
                 CallingCodes = ["86"],
                 Capital = "Beijing",
                 AlternativeSpellings = ["CN", "Zhōngguó", "Zhongguo", "Zhonghua", "People's Republic of China", "中华人民共和国", "Zhōnghuá Rénmín Gònghéguó"],
-                Region = "Asia",
-                SubRegion = "Eastern Asia",
+                Continent = Continent.Asia,
+                Region = "Eastern Asia",
                 Borders =
                 [
                     CountryCodeISO3.AFG,
@@ -312,8 +312,8 @@ public partial struct Country
                 CallingCodes = ["995"],
                 Capital = "Tbilisi",
                 AlternativeSpellings = ["GE", "Sakartvelo"],
-                Region = "Asia",
-                SubRegion = "Western Asia",
+                Continent = Continent.Asia,
+                Region = "Western Asia",
                 Borders =
                 [
                     CountryCodeISO3.ARM,
@@ -345,8 +345,8 @@ public partial struct Country
                 CallingCodes = ["852"],
                 Capital = "City of Victoria",
                 AlternativeSpellings = ["HK"],
-                Region = "Asia",
-                SubRegion = "Eastern Asia",
+                Continent = Continent.Asia,
+                Region = "Eastern Asia",
                 Borders = [CountryCodeISO3.CHN],
                 Landlocked = false,
                 Area = 1104.0
@@ -372,8 +372,8 @@ public partial struct Country
                 CallingCodes = ["62"],
                 Capital = "Jakarta",
                 AlternativeSpellings = ["ID", "Republic of Indonesia", "Republik Indonesia"],
-                Region = "Asia",
-                SubRegion = "South-Eastern Asia",
+                Continent = Continent.Asia,
+                Region = "South-Eastern Asia",
                 Borders =
                 [
                     CountryCodeISO3.TLS,
@@ -404,8 +404,8 @@ public partial struct Country
                 CallingCodes = ["91"],
                 Capital = "New Delhi",
                 AlternativeSpellings = ["IN", "Bhārat", "Republic of India", "Bharat Ganrajya", "இந்தியா"],
-                Region = "Asia",
-                SubRegion = "Southern Asia",
+                Continent = Continent.Asia,
+                Region = "Southern Asia",
                 Borders =
                 [
                     CountryCodeISO3.AFG,
@@ -441,8 +441,8 @@ public partial struct Country
                 CallingCodes = ["98"],
                 Capital = "Tehran",
                 AlternativeSpellings = ["IR", "Islamic Republic of Iran", "Iran, Islamic Republic of", "Jomhuri-ye Eslāmi-ye Irān"],
-                Region = "Asia",
-                SubRegion = "Southern Asia",
+                Continent = Continent.Asia,
+                Region = "Southern Asia",
                 Borders =
                 [
                     CountryCodeISO3.AFG,
@@ -477,8 +477,8 @@ public partial struct Country
                 CallingCodes = ["964"],
                 Capital = "Baghdad",
                 AlternativeSpellings = ["IQ", "Republic of Iraq", "Jumhūriyyat al-'Irāq"],
-                Region = "Asia",
-                SubRegion = "Western Asia",
+                Continent = Continent.Asia,
+                Region = "Western Asia",
                 Borders =
                 [
                     CountryCodeISO3.IRN,
@@ -512,8 +512,8 @@ public partial struct Country
                 CallingCodes = ["972"],
                 Capital = "Jerusalem",
                 AlternativeSpellings = ["IL", "State of Israel", "Medīnat Yisrā'el"],
-                Region = "Asia",
-                SubRegion = "Western Asia",
+                Continent = Continent.Asia,
+                Region = "Western Asia",
                 Borders =
                 [
                     CountryCodeISO3.EGY,
@@ -545,8 +545,8 @@ public partial struct Country
                 CallingCodes = ["962"],
                 Capital = "Amman",
                 AlternativeSpellings = ["JO", "Hashemite Kingdom of Jordan", "al-Mamlakah al-Urdunīyah al-Hāshimīyah"],
-                Region = "Asia",
-                SubRegion = "Western Asia",
+                Continent = Continent.Asia,
+                Region = "Western Asia",
                 Borders =
                 [
                     CountryCodeISO3.IRQ,
@@ -578,8 +578,8 @@ public partial struct Country
                 CallingCodes = ["81"],
                 Capital = "Tokyo",
                 AlternativeSpellings = ["JP", "Nippon", "Nihon"],
-                Region = "Asia",
-                SubRegion = "Eastern Asia",
+                Continent = Continent.Asia,
+                Region = "Eastern Asia",
                 Borders = [],
                 Landlocked = false,
                 Area = 377930.0
@@ -605,8 +605,8 @@ public partial struct Country
                 CallingCodes = ["76", "77"],
                 Capital = "Astana",
                 AlternativeSpellings = ["KZ", "Qazaqstan", "Казахстан", "Republic of Kazakhstan", "Қазақстан Республикасы", "Qazaqstan Respublïkası", "Республика Казахстан", "Respublika Kazakhstan"],
-                Region = "Asia",
-                SubRegion = "Central Asia",
+                Continent = Continent.Asia,
+                Region = "Central Asia",
                 Borders =
                 [
                     CountryCodeISO3.CHN,
@@ -639,8 +639,8 @@ public partial struct Country
                 CallingCodes = ["996"],
                 Capital = "Bishkek",
                 AlternativeSpellings = ["KG", "Киргизия", "Kyrgyz Republic", "Кыргыз Республикасы", "Kyrgyz Respublikasy"],
-                Region = "Asia",
-                SubRegion = "Central Asia",
+                Continent = Continent.Asia,
+                Region = "Central Asia",
                 Borders =
                 [
                     CountryCodeISO3.CHN,
@@ -672,8 +672,8 @@ public partial struct Country
                 CallingCodes = ["855"],
                 Capital = "Phnom Penh",
                 AlternativeSpellings = ["KH", "Kingdom of Cambodia"],
-                Region = "Asia",
-                SubRegion = "South-Eastern Asia",
+                Continent = Continent.Asia,
+                Region = "South-Eastern Asia",
                 Borders =
                 [
                     CountryCodeISO3.LAO,
@@ -704,8 +704,8 @@ public partial struct Country
                 CallingCodes = ["82"],
                 Capital = "Seoul",
                 AlternativeSpellings = ["KR", "Korea, Republic of", "Republic of Korea"],
-                Region = "Asia",
-                SubRegion = "Eastern Asia",
+                Continent = Continent.Asia,
+                Region = "Eastern Asia",
                 Borders = [CountryCodeISO3.PRK],
                 Landlocked = false,
                 Area = 100210.0
@@ -731,8 +731,8 @@ public partial struct Country
                 CallingCodes = ["965"],
                 Capital = "Kuwait City",
                 AlternativeSpellings = ["KW", "State of Kuwait", "Dawlat al-Kuwait"],
-                Region = "Asia",
-                SubRegion = "Western Asia",
+                Continent = Continent.Asia,
+                Region = "Western Asia",
                 Borders =
                 [
                     CountryCodeISO3.IRQ,
@@ -762,8 +762,8 @@ public partial struct Country
                 CallingCodes = ["856"],
                 Capital = "Vientiane",
                 AlternativeSpellings = ["LA", "Lao", "Lao People's Democratic Republic", "Sathalanalat Paxathipatai Paxaxon Lao"],
-                Region = "Asia",
-                SubRegion = "South-Eastern Asia",
+                Continent = Continent.Asia,
+                Region = "South-Eastern Asia",
                 Borders =
                 [
                     CountryCodeISO3.MMR,
@@ -796,8 +796,8 @@ public partial struct Country
                 CallingCodes = ["961"],
                 Capital = "Beirut",
                 AlternativeSpellings = ["LB", "Lebanese Republic", "Al-Jumhūrīyah Al-Libnānīyah"],
-                Region = "Asia",
-                SubRegion = "Western Asia",
+                Continent = Continent.Asia,
+                Region = "Western Asia",
                 Borders =
                 [
                     CountryCodeISO3.ISR,
@@ -827,8 +827,8 @@ public partial struct Country
                 CallingCodes = ["94"],
                 Capital = "Colombo",
                 AlternativeSpellings = ["LK", "ilaṅkai", "Democratic Socialist Republic of Sri Lanka"],
-                Region = "Asia",
-                SubRegion = "Southern Asia",
+                Continent = Continent.Asia,
+                Region = "Southern Asia",
                 Borders = [CountryCodeISO3.IND],
                 Landlocked = false,
                 Area = 65610.0
@@ -854,8 +854,8 @@ public partial struct Country
                 CallingCodes = ["853"],
                 Capital = "",
                 AlternativeSpellings = ["MO", "澳门", "Macao", "Macao Special Administrative Region of the People's Republic of China", "中華人民共和國澳門特別行政區", "Região Administrativa Especial de Macau da República Popular da China"],
-                Region = "Asia",
-                SubRegion = "Eastern Asia",
+                Continent = Continent.Asia,
+                Region = "Eastern Asia",
                 Borders = [CountryCodeISO3.CHN],
                 Landlocked = false,
                 Area = 30.0
@@ -881,8 +881,8 @@ public partial struct Country
                 CallingCodes = ["960"],
                 Capital = "Malé",
                 AlternativeSpellings = ["MV", "Maldive Islands", "Republic of the Maldives", "Dhivehi Raajjeyge Jumhooriyya"],
-                Region = "Asia",
-                SubRegion = "Southern Asia",
+                Continent = Continent.Asia,
+                Region = "Southern Asia",
                 Borders = [],
                 Landlocked = false,
                 Area = 300.0
@@ -908,8 +908,8 @@ public partial struct Country
                 CallingCodes = ["95"],
                 Capital = "Naypyidaw",
                 AlternativeSpellings = ["MM", "Burma", "Republic of the Union of Myanmar", "Pyidaunzu Thanmăda Myăma Nainngandaw"],
-                Region = "Asia",
-                SubRegion = "South-Eastern Asia",
+                Continent = Continent.Asia,
+                Region = "South-Eastern Asia",
                 Borders =
                 [
                     CountryCodeISO3.BGD,
@@ -942,8 +942,8 @@ public partial struct Country
                 CallingCodes = ["976"],
                 Capital = "Ulan Bator",
                 AlternativeSpellings = ["MN"],
-                Region = "Asia",
-                SubRegion = "Eastern Asia",
+                Continent = Continent.Asia,
+                Region = "Eastern Asia",
                 Borders =
                 [
                     CountryCodeISO3.CHN,
@@ -973,8 +973,8 @@ public partial struct Country
                 CallingCodes = ["60"],
                 Capital = "Kuala Lumpur",
                 AlternativeSpellings = ["MY"],
-                Region = "Asia",
-                SubRegion = "South-Eastern Asia",
+                Continent = Continent.Asia,
+                Region = "South-Eastern Asia",
                 Borders =
                 [
                     CountryCodeISO3.BRN,
@@ -1005,8 +1005,8 @@ public partial struct Country
                 CallingCodes = ["977"],
                 Capital = "Kathmandu",
                 AlternativeSpellings = ["NP", "Federal Democratic Republic of Nepal", "Loktāntrik Ganatantra Nepāl"],
-                Region = "Asia",
-                SubRegion = "Southern Asia",
+                Continent = Continent.Asia,
+                Region = "Southern Asia",
                 Borders =
                 [
                     CountryCodeISO3.CHN,
@@ -1036,8 +1036,8 @@ public partial struct Country
                 CallingCodes = ["968"],
                 Capital = "Muscat",
                 AlternativeSpellings = ["OM", "Sultanate of Oman", "Salṭanat ʻUmān"],
-                Region = "Asia",
-                SubRegion = "Western Asia",
+                Continent = Continent.Asia,
+                Region = "Western Asia",
                 Borders =
                 [
                     CountryCodeISO3.SAU,
@@ -1068,8 +1068,8 @@ public partial struct Country
                 CallingCodes = ["92"],
                 Capital = "Islamabad",
                 AlternativeSpellings = ["PK", "Pākistān", "Islamic Republic of Pakistan", "Islāmī Jumhūriya'eh Pākistān"],
-                Region = "Asia",
-                SubRegion = "Southern Asia",
+                Continent = Continent.Asia,
+                Region = "Southern Asia",
                 Borders =
                 [
                     CountryCodeISO3.AFG,
@@ -1101,8 +1101,8 @@ public partial struct Country
                 CallingCodes = ["63"],
                 Capital = "Manila",
                 AlternativeSpellings = ["PH", "Republic of the Philippines", "Repúblika ng Pilipinas"],
-                Region = "Asia",
-                SubRegion = "South-Eastern Asia",
+                Continent = Continent.Asia,
+                Region = "South-Eastern Asia",
                 Borders = [],
                 Landlocked = false,
                 Area = 342353.0
@@ -1128,8 +1128,8 @@ public partial struct Country
                 CallingCodes = ["850"],
                 Capital = "Pyongyang",
                 AlternativeSpellings = ["KP", "Democratic People's Republic of Korea", "조선민주주의인민공화국", "Chosŏn Minjujuŭi Inmin Konghwaguk", "Korea, Democratic People's Republic of"],
-                Region = "Asia",
-                SubRegion = "Eastern Asia",
+                Continent = Continent.Asia,
+                Region = "Eastern Asia",
                 Borders =
                 [
                     CountryCodeISO3.CHN,
@@ -1160,8 +1160,8 @@ public partial struct Country
                 CallingCodes = ["970"],
                 Capital = "Ramallah",
                 AlternativeSpellings = ["PS", "Palestine, State of", "State of Palestine", "Dawlat Filasṭin"],
-                Region = "Asia",
-                SubRegion = "Western Asia",
+                Continent = Continent.Asia,
+                Region = "Western Asia",
                 Borders =
                 [
                     CountryCodeISO3.ISR,
@@ -1192,8 +1192,8 @@ public partial struct Country
                 CallingCodes = ["974"],
                 Capital = "Doha",
                 AlternativeSpellings = ["QA", "State of Qatar", "Dawlat Qaṭar"],
-                Region = "Asia",
-                SubRegion = "Western Asia",
+                Continent = Continent.Asia,
+                Region = "Western Asia",
                 Borders = [CountryCodeISO3.SAU],
                 Landlocked = false,
                 Area = 11586.0
@@ -1219,8 +1219,8 @@ public partial struct Country
                 CallingCodes = ["966"],
                 Capital = "Riyadh",
                 AlternativeSpellings = ["Saudi", "SA", "Kingdom of Saudi Arabia", "Al-Mamlakah al-'Arabiyyah as-Su'ūdiyyah"],
-                Region = "Asia",
-                SubRegion = "Western Asia",
+                Continent = Continent.Asia,
+                Region = "Western Asia",
                 Borders =
                 [
                     CountryCodeISO3.IRQ,
@@ -1255,8 +1255,8 @@ public partial struct Country
                 CallingCodes = ["65"],
                 Capital = "Singapore",
                 AlternativeSpellings = ["SG", "Singapura", "Republik Singapura", "新加坡共和国"],
-                Region = "Asia",
-                SubRegion = "South-Eastern Asia",
+                Continent = Continent.Asia,
+                Region = "South-Eastern Asia",
                 Borders = [],
                 Landlocked = false,
                 Area = 710.0
@@ -1282,8 +1282,8 @@ public partial struct Country
                 CallingCodes = ["963"],
                 Capital = "Damascus",
                 AlternativeSpellings = ["SY", "Syrian Arab Republic", "Al-Jumhūrīyah Al-ʻArabīyah As-Sūrīyah"],
-                Region = "Asia",
-                SubRegion = "Western Asia",
+                Continent = Continent.Asia,
+                Region = "Western Asia",
                 Borders =
                 [
                     CountryCodeISO3.IRQ,
@@ -1316,8 +1316,8 @@ public partial struct Country
                 CallingCodes = ["66"],
                 Capital = "Bangkok",
                 AlternativeSpellings = ["TH", "Prathet", "Thai", "Kingdom of Thailand", "ราชอาณาจักรไทย", "Ratcha Anachak Thai"],
-                Region = "Asia",
-                SubRegion = "South-Eastern Asia",
+                Continent = Continent.Asia,
+                Region = "South-Eastern Asia",
                 Borders =
                 [
                     CountryCodeISO3.MMR,
@@ -1349,8 +1349,8 @@ public partial struct Country
                 CallingCodes = ["992"],
                 Capital = "Dushanbe",
                 AlternativeSpellings = ["TJ", "Toçikiston", "Republic of Tajikistan", "Ҷумҳурии Тоҷикистон", "Çumhuriyi Toçikiston"],
-                Region = "Asia",
-                SubRegion = "Central Asia",
+                Continent = Continent.Asia,
+                Region = "Central Asia",
                 Borders =
                 [
                     CountryCodeISO3.AFG,
@@ -1382,8 +1382,8 @@ public partial struct Country
                 CallingCodes = ["993"],
                 Capital = "Ashgabat",
                 AlternativeSpellings = ["TM"],
-                Region = "Asia",
-                SubRegion = "Central Asia",
+                Continent = Continent.Asia,
+                Region = "Central Asia",
                 Borders =
                 [
                     CountryCodeISO3.AFG,
@@ -1415,8 +1415,8 @@ public partial struct Country
                 CallingCodes = ["670"],
                 Capital = "Dili",
                 AlternativeSpellings = ["TL", "East Timor", "Democratic Republic of Timor-Leste", "República Democrática de Timor-Leste", "Repúblika Demokrátika Timór-Leste", "Timór Lorosa'e", "Timor Lorosae"],
-                Region = "Asia",
-                SubRegion = "South-Eastern Asia",
+                Continent = Continent.Asia,
+                Region = "South-Eastern Asia",
                 Borders = [CountryCodeISO3.IDN],
                 Landlocked = false,
                 Area = 14874.0
@@ -1442,8 +1442,8 @@ public partial struct Country
                 CallingCodes = ["90"],
                 Capital = "Ankara",
                 AlternativeSpellings = ["TR", "Turkiye", "Republic of Turkey", "Türkiye Cumhuriyeti"],
-                Region = "Asia",
-                SubRegion = "Western Asia",
+                Continent = Continent.Asia,
+                Region = "Western Asia",
                 Borders =
                 [
                     CountryCodeISO3.ARM,
@@ -1479,8 +1479,8 @@ public partial struct Country
                 CallingCodes = ["886"],
                 Capital = "Taipei",
                 AlternativeSpellings = ["TW", "Táiwān", "Republic of China", "中華民國", "Zhōnghuá Mínguó", "Chinese Taipei for IOC", "Taiwan, Province of China"],
-                Region = "Asia",
-                SubRegion = "Eastern Asia",
+                Continent = Continent.Asia,
+                Region = "Eastern Asia",
                 Borders = [],
                 Landlocked = false,
                 Area = 36193.0
@@ -1506,8 +1506,8 @@ public partial struct Country
                 CallingCodes = ["998"],
                 Capital = "Tashkent",
                 AlternativeSpellings = ["UZ", "Republic of Uzbekistan", "O'zbekiston Respublikasi", "Ўзбекистон Республикаси"],
-                Region = "Asia",
-                SubRegion = "Central Asia",
+                Continent = Continent.Asia,
+                Region = "Central Asia",
                 Borders =
                 [
                     CountryCodeISO3.AFG,
@@ -1540,8 +1540,8 @@ public partial struct Country
                 CallingCodes = ["84"],
                 Capital = "Hanoi",
                 AlternativeSpellings = ["VN", "Socialist Republic of Vietnam", "Cộng hòa Xã hội chủ nghĩa Việt Nam", "Viet Nam"],
-                Region = "Asia",
-                SubRegion = "South-Eastern Asia",
+                Continent = Continent.Asia,
+                Region = "South-Eastern Asia",
                 Borders =
                 [
                     CountryCodeISO3.KHM,
@@ -1572,8 +1572,8 @@ public partial struct Country
                 CallingCodes = ["967"],
                 Capital = "Sana'a",
                 AlternativeSpellings = ["YE", "Yemeni Republic", "al-Jumhūriyyah al-Yamaniyyah"],
-                Region = "Asia",
-                SubRegion = "Western Asia",
+                Continent = Continent.Asia,
+                Region = "Western Asia",
                 Borders =
                 [
                     CountryCodeISO3.OMN,

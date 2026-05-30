@@ -14,7 +14,7 @@ public class CountryContinentTests
 
     [Test]
     public void Africa_AllShouldHaveCorrectRegion()
-        => Assert.That(Country.Africa.All(c => c.Region == "Africa"), Is.True);
+        => Assert.That(Country.Africa.All(c => c.Continent == "Africa"), Is.True);
 
     [Test]
     public void Africa_ShouldContainNigeria()
@@ -32,7 +32,7 @@ public class CountryContinentTests
 
     [Test]
     public void Americas_AllShouldHaveCorrectRegion()
-        => Assert.That(Country.Americas.All(c => c.Region == "Americas"), Is.True);
+        => Assert.That(Country.Americas.All(c => c.Continent == "Americas"), Is.True);
 
     [Test]
     public void Americas_ShouldContainUnitedStates()
@@ -50,7 +50,7 @@ public class CountryContinentTests
 
     [Test]
     public void Asia_AllShouldHaveCorrectRegion()
-        => Assert.That(Country.Asia.All(c => c.Region == "Asia"), Is.True);
+        => Assert.That(Country.Asia.All(c => c.Continent == "Asia"), Is.True);
 
     [Test]
     public void Asia_ShouldContainChina()
@@ -68,7 +68,7 @@ public class CountryContinentTests
 
     [Test]
     public void Europe_AllShouldHaveCorrectRegion()
-        => Assert.That(Country.Europe.All(c => c.Region == "Europe"), Is.True);
+        => Assert.That(Country.Europe.All(c => c.Continent == "Europe"), Is.True);
 
     [Test]
     public void Europe_ShouldContainItaly()
@@ -86,7 +86,7 @@ public class CountryContinentTests
 
     [Test]
     public void Oceania_AllShouldHaveCorrectRegion()
-        => Assert.That(Country.Oceania.All(c => c.Region == "Oceania"), Is.True);
+        => Assert.That(Country.Oceania.All(c => c.Continent == "Oceania"), Is.True);
 
     [Test]
     public void Oceania_ShouldContainAustralia()
@@ -119,7 +119,7 @@ public class CountryContinentTests
                            + Country.Europe.Count()
                            + Country.Oceania.Count();
 
-        int allWithRegion = Country.All.Count(c => !string.IsNullOrEmpty(c.Region));
+        int allWithRegion = Country.All.Count(c => !string.IsNullOrEmpty(c.Continent));
 
         Assert.That(continentTotal, Is.EqualTo(allWithRegion));
     }

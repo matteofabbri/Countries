@@ -18,8 +18,8 @@ public partial struct Country
                 Currencies = [],
                 Capital = "",
                 AlternativeSpellings = ["AQ"],
+                Continent = Continent.Antarctica,
                 Region = "",
-                SubRegion = "",
                 Borders = [],
                 Landlocked = false,
                 Area = 14000000.0
@@ -44,8 +44,8 @@ public partial struct Country
                 Currencies = ["EUR"],
                 Capital = "Port-aux-Français",
                 AlternativeSpellings = ["TF", "French Southern Territories"],
+                Continent = Continent.Antarctica,
                 Region = "",
-                SubRegion = "",
                 Borders = [],
                 Landlocked = false,
                 Area = 7747.0
@@ -70,8 +70,8 @@ public partial struct Country
                 Currencies = ["NOK"],
                 Capital = "",
                 AlternativeSpellings = ["BV", "Bouvetøya", "Bouvet-øya"],
+                Continent = Continent.Antarctica,
                 Region = "",
-                SubRegion = "",
                 Borders = [],
                 Landlocked = false,
                 Area = 49.0
@@ -96,8 +96,8 @@ public partial struct Country
                 Currencies = ["AUD"],
                 Capital = "",
                 AlternativeSpellings = ["HM", "Heard Island and McDonald Mcdonald Islands"],
+                Continent = Continent.Antarctica,
                 Region = "",
-                SubRegion = "",
                 Borders = [],
                 Landlocked = false,
                 Area = 412.0
