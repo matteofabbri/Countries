@@ -7,13 +7,13 @@ using System.Text;
 
 namespace Countries;
 
-public partial struct Country
+public partial struct Country : IEquatable<CountryCode>, IEquatable<CountryCodeISO3>
 {
     private static Country[] _all;
     private static Dictionary<CountryCode, Country> _iso2;
     private static Dictionary<CountryCodeISO3, Country> _iso3;
 
-    private static List<(string key, Country country)> _fuzzyIndex;
+    private static HashSet<(string key, Country country)> _fuzzyIndex;
 
     static Country()
     {
@@ -47,7 +47,7 @@ public partial struct Country
         // Decomposizione Unicode per separare lettere e accenti
         var decomposed = s.Normalize(NormalizationForm.FormD);
 
-        var sb = new System.Text.StringBuilder(decomposed.Length);
+        StringBuilder sb = new StringBuilder(decomposed.Length);
 
         foreach (var c in decomposed)
         {
@@ -208,4 +208,18 @@ public partial struct Country
 
     public static Country FromCode(CountryCodeISO3 cc)
         => _iso3.TryGetValue(cc, out var c) ? c : Unknown;
+
+    public bool Equals(CountryCode other)
+    {
+       if(!ReferenceEquals(this, other)) return false;
+
+       return CountryCode == other;
+    }
+
+    public bool Equals(CountryCodeISO3 other)
+    {
+       if(!ReferenceEquals(this, other)) return false;
+
+       return ISO3 == other;
+    }
 }
