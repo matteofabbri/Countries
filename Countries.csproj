@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <AssemblyName>Countries</AssemblyName>
@@ -14,10 +14,38 @@
 
     <LangVersion>12.0</LangVersion>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+
+    <!-- NuGet metadata -->
+    <PackageId>Countries</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>YourName</Authors>
+    <Company></Company>
+    <Description>Fast, dependency‑free ISO‑3166 country library for .NET with full country data and built‑in fuzzy search.</Description>
+    <PackageTags>countries;iso;iso2;iso3;geography;fuzzy</PackageTags>
+
+    <!-- Repository info -->
+    <RepositoryUrl>https://github.com/your/repo</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+
+    <!-- License -->
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+
+    <!-- README -->
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+
+    <!-- Deterministic build -->
+    <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+
+    <!-- Auto-generate NuGet package -->
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+
+    <!-- Symbol package -->
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Countries.Tests\**" />
+    <None Include="README.md" Pack="true" PackagePath="\" />
   </ItemGroup>
 
 </Project>
